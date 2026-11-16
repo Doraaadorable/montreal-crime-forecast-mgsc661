@@ -1,0 +1,5 @@
+category,months,first_month,last_month,bilan_total,actes_total,ratio_actes_to_bilan,monthly_correlation,largest_monthly_gap_pct
+Break and enter,46,2023-01,2026-10,25076,24864,0.992,0.993,6.9
+Mischief,46,2023-01,2026-10,25867,25479,0.985,0.997,6.8
+Vehicle theft,46,2023-01,2026-10,32604,32020,0.982,0.999,10.8
+Robbery,46,2023-01,2026-10,12099,7699,0.636,0.765,52.1

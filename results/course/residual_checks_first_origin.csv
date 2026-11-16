@@ -1,0 +1,11 @@
+unique_id,model,structure,ljung_box_df_reduction,ljung_box_p_lag12,ljung_box_p_lag24,residual_lag1_acf,residual_lag12_acf
+Break and enter,AutoARIMA,"ARIMA(0,1,1)(0,1,1)[12]",2,0.103,0.191,-0.08,-0.05
+Break and enter,AutoETS,"ETS(M,N,M)",0,0.125,0.038,0.09,-0.12
+Mischief,AutoARIMA,"ARIMA(1,0,0)(0,1,1)[12] with drift",2,0.213,0.804,-0.04,0.01
+Mischief,AutoETS,"ETS(M,N,M)",0,0.187,0.14,0.18,-0.04
+Robbery,AutoARIMA,"ARIMA(0,1,1)(1,0,0)[12]",2,0.002,0.003,-0.06,-0.02
+Robbery,AutoETS,"ETS(M,N,N)",0,0.003,0.0,0.04,0.25
+Theft from vehicle,AutoARIMA,"ARIMA(2,0,1)(0,1,0)[12] with drift",3,0.817,0.675,0.0,-0.09
+Theft from vehicle,AutoETS,"ETS(M,A,M)",0,0.048,0.001,0.15,0.05
+Vehicle theft,AutoARIMA,"ARIMA(1,0,0) with non-zero mean",1,0.583,0.523,0.1,0.03
+Vehicle theft,AutoETS,"ETS(M,N,N)",0,0.234,0.121,-0.07,0.05

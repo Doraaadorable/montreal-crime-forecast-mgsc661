@@ -1,0 +1,10 @@
+A,B,horizons,error_ratio,ci_low,ci_high
+OLS,SeasonalNaive,all horizons,1.174,0.978,1.408
+OLS,SeasonalNaive,1 month ahead,1.088,0.899,1.318
+OLS,SeasonalNaive,6 months ahead,1.268,1.053,1.523
+OLS,AutoETS,all horizons,1.449,1.171,1.853
+OLS,AutoETS,1 month ahead,1.804,1.464,2.318
+OLS,AutoETS,6 months ahead,1.382,1.142,1.742
+AutoETS,SeasonalNaive,all horizons,0.81,0.707,0.863
+AutoETS,SeasonalNaive,1 month ahead,0.603,0.511,0.656
+AutoETS,SeasonalNaive,6 months ahead,0.917,0.81,0.989

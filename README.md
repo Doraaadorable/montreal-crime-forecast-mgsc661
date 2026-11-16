@@ -7,7 +7,8 @@ break.
 
 **Dora Zhuang** ·
 [Interactive summary](https://doraaadorable.github.io/montreal-crime-forecast/) ·
-[Full findings](docs/FINDINGS.md)
+[Full findings](docs/FINDINGS.md) ·
+[MGSC 661 course version](docs/course/README.md)
 
 ## Findings
 

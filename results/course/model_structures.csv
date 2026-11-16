@@ -1,0 +1,771 @@
+unique_id,cutoff,model,structure,alpha,beta,gamma,phi,p,d,q,P,D,Q,aicc
+Break and enter,2019-12-01,AutoETS,"ETS(M,N,M)",0.352,,0.007,,,,,,,,762.557
+Break and enter,2019-12-01,AutoARIMA,"ARIMA(0,1,1)(0,1,1)[12]",,,,,0.0,1.0,1.0,0.0,1.0,1.0,542.188
+Mischief,2019-12-01,AutoETS,"ETS(M,N,M)",0.345,,0.003,,,,,,,,737.084
+Mischief,2019-12-01,AutoARIMA,"ARIMA(1,0,0)(0,1,1)[12] with drift",,,,,1.0,0.0,0.0,0.0,1.0,1.0,527.152
+Robbery,2019-12-01,AutoETS,"ETS(M,N,N)",0.476,,,,,,,,,,614.811
+Robbery,2019-12-01,AutoARIMA,"ARIMA(0,1,1)(1,0,0)[12]",,,,,0.0,1.0,1.0,1.0,0.0,0.0,528.75
+Theft from vehicle,2019-12-01,AutoETS,"ETS(M,A,M)",0.016,0.002,0.001,,,,,,,,784.962
+Theft from vehicle,2019-12-01,AutoARIMA,"ARIMA(2,0,1)(0,1,0)[12] with drift",,,,,2.0,0.0,1.0,0.0,1.0,0.0,559.089
+Vehicle theft,2019-12-01,AutoETS,"ETS(M,N,N)",0.911,,,,,,,,,,696.148
+Vehicle theft,2019-12-01,AutoARIMA,"ARIMA(1,0,0) with non-zero mean",,,,,1.0,0.0,0.0,0.0,0.0,0.0,610.68
+Break and enter,2020-01-01,AutoETS,"ETS(M,N,N)",0.82,,,,,,,,,,778.932
+Break and enter,2020-01-01,AutoARIMA,"ARIMA(1,0,0)(0,1,1)[12] with drift",,,,,1.0,0.0,0.0,0.0,1.0,1.0,567.327
+Mischief,2020-01-01,AutoETS,"ETS(M,N,M)",0.369,,0.016,,,,,,,,748.254
+Mischief,2020-01-01,AutoARIMA,"ARIMA(1,0,0)(0,1,1)[12] with drift",,,,,1.0,0.0,0.0,0.0,1.0,1.0,537.919
+Robbery,2020-01-01,AutoETS,"ETS(M,N,N)",0.499,,,,,,,,,,626.431
+Robbery,2020-01-01,AutoARIMA,"ARIMA(0,1,1)(1,0,0)[12]",,,,,0.0,1.0,1.0,1.0,0.0,0.0,537.839
+Theft from vehicle,2020-01-01,AutoETS,"ETS(M,A,M)",0.021,0.003,0.0,,,,,,,,803.124
+Theft from vehicle,2020-01-01,AutoARIMA,"ARIMA(3,0,0)(0,1,0)[12] with drift",,,,,3.0,0.0,0.0,0.0,1.0,0.0,573.372
+Vehicle theft,2020-01-01,AutoETS,"ETS(A,N,N)",0.447,,,,,,,,,,709.672
+Vehicle theft,2020-01-01,AutoARIMA,"ARIMA(1,0,0) with non-zero mean",,,,,1.0,0.0,0.0,0.0,0.0,0.0,621.499
+Break and enter,2020-02-01,AutoETS,"ETS(M,N,M)",0.404,,0.002,,,,,,,,790.419
+Break and enter,2020-02-01,AutoARIMA,"ARIMA(0,0,3)(0,1,1)[12] with drift",,,,,0.0,0.0,3.0,0.0,1.0,1.0,580.678
+Mischief,2020-02-01,AutoETS,"ETS(M,N,M)",0.394,,0.006,,,,,,,,759.683
+Mischief,2020-02-01,AutoARIMA,"ARIMA(1,0,0)(0,1,1)[12] with drift",,,,,1.0,0.0,0.0,0.0,1.0,1.0,549.416
+Robbery,2020-02-01,AutoETS,"ETS(M,N,N)",0.492,,,,,,,,,,636.5
+Robbery,2020-02-01,AutoARIMA,"ARIMA(0,1,1)(1,0,0)[12]",,,,,0.0,1.0,1.0,1.0,0.0,0.0,545.732
+Theft from vehicle,2020-02-01,AutoETS,"ETS(M,N,M)",0.256,,0.008,,,,,,,,821.664
+Theft from vehicle,2020-02-01,AutoARIMA,"ARIMA(3,0,0)(0,1,0)[12] with drift",,,,,3.0,0.0,0.0,0.0,1.0,0.0,584.292
+Vehicle theft,2020-02-01,AutoETS,"ETS(A,N,N)",0.44,,,,,,,,,,721.274
+Vehicle theft,2020-02-01,AutoARIMA,"ARIMA(1,0,0) with non-zero mean",,,,,1.0,0.0,0.0,0.0,0.0,0.0,630.856
+Break and enter,2020-03-01,AutoETS,"ETS(M,N,M)",0.397,,0.009,,,,,,,,802.753
+Break and enter,2020-03-01,AutoARIMA,"ARIMA(1,0,0)(0,1,1)[12] with drift",,,,,1.0,0.0,0.0,0.0,1.0,1.0,588.967
+Mischief,2020-03-01,AutoETS,"ETS(M,N,M)",0.344,,0.004,,,,,,,,774.528
+Mischief,2020-03-01,AutoARIMA,"ARIMA(1,0,0)(0,1,1)[12] with drift",,,,,1.0,0.0,0.0,0.0,1.0,1.0,559.329
+Robbery,2020-03-01,AutoETS,"ETS(M,N,N)",0.504,,,,,,,,,,647.057
+Robbery,2020-03-01,AutoARIMA,"ARIMA(0,1,1)(1,0,0)[12]",,,,,0.0,1.0,1.0,1.0,0.0,0.0,554.602
+Theft from vehicle,2020-03-01,AutoETS,"ETS(M,N,M)",0.249,,0.0,,,,,,,,833.441
+Theft from vehicle,2020-03-01,AutoARIMA,"ARIMA(0,0,2)(0,1,1)[12] with drift",,,,,0.0,0.0,2.0,0.0,1.0,1.0,597.344
+Vehicle theft,2020-03-01,AutoETS,"ETS(A,N,N)",0.441,,,,,,,,,,733.053
+Vehicle theft,2020-03-01,AutoARIMA,"ARIMA(1,0,0) with non-zero mean",,,,,1.0,0.0,0.0,0.0,0.0,0.0,640.104
+Break and enter,2020-04-01,AutoETS,"ETS(M,N,M)",0.375,,0.015,,,,,,,,826.495
+Break and enter,2020-04-01,AutoARIMA,"ARIMA(0,0,2)(0,1,1)[12] with drift",,,,,0.0,0.0,2.0,0.0,1.0,1.0,606.392
+Mischief,2020-04-01,AutoETS,"ETS(M,N,M)",0.401,,0.004,,,,,,,,812.405
+Mischief,2020-04-01,AutoARIMA,"ARIMA(1,0,0)(1,1,0)[12] with drift",,,,,1.0,0.0,0.0,1.0,1.0,0.0,578.758
+Robbery,2020-04-01,AutoETS,"ETS(A,N,N)",0.568,,,,,,,,,,671.06
+Robbery,2020-04-01,AutoARIMA,"ARIMA(0,1,1)(1,0,0)[12]",,,,,0.0,1.0,1.0,1.0,0.0,0.0,576.227
+Theft from vehicle,2020-04-01,AutoETS,"ETS(A,A,A)",0.003,0.0,0.001,,,,,,,,851.998
+Theft from vehicle,2020-04-01,AutoARIMA,"ARIMA(3,0,0)(0,1,0)[12] with drift",,,,,3.0,0.0,0.0,0.0,1.0,0.0,612.173
+Vehicle theft,2020-04-01,AutoETS,"ETS(A,N,N)",0.469,,,,,,,,,,746.879
+Vehicle theft,2020-04-01,AutoARIMA,"ARIMA(1,0,0) with non-zero mean",,,,,1.0,0.0,0.0,0.0,0.0,0.0,651.71
+Break and enter,2020-05-01,AutoETS,"ETS(M,N,N)",0.82,,,,,,,,,,838.712
+Break and enter,2020-05-01,AutoARIMA,"ARIMA(0,0,2)(0,1,1)[12] with drift",,,,,0.0,0.0,2.0,0.0,1.0,1.0,618.112
+Mischief,2020-05-01,AutoETS,"ETS(M,N,M)",0.398,,0.0,,,,,,,,824.147
+Mischief,2020-05-01,AutoARIMA,"ARIMA(1,0,0)(1,1,0)[12] with drift",,,,,1.0,0.0,0.0,1.0,1.0,0.0,588.703
+Robbery,2020-05-01,AutoETS,"ETS(A,N,N)",0.598,,,,,,,,,,681.615
+Robbery,2020-05-01,AutoARIMA,"ARIMA(0,1,1)",,,,,0.0,1.0,1.0,0.0,0.0,0.0,584.664
+Theft from vehicle,2020-05-01,AutoETS,"ETS(A,A,A)",0.0,0.0,0.006,,,,,,,,873.016
+Theft from vehicle,2020-05-01,AutoARIMA,"ARIMA(0,1,2)(0,0,1)[12] with drift",,,,,0.0,1.0,2.0,0.0,0.0,1.0,762.333
+Vehicle theft,2020-05-01,AutoETS,"ETS(A,N,N)",0.396,,,,,,,,,,759.566
+Vehicle theft,2020-05-01,AutoARIMA,"ARIMA(1,0,0) with non-zero mean",,,,,1.0,0.0,0.0,0.0,0.0,0.0,662.012
+Break and enter,2020-06-01,AutoETS,"ETS(M,N,N)",0.823,,,,,,,,,,850.577
+Break and enter,2020-06-01,AutoARIMA,"ARIMA(1,1,0)(0,0,1)[12]",,,,,1.0,1.0,0.0,0.0,0.0,1.0,748.763
+Mischief,2020-06-01,AutoETS,"ETS(A,A,A)",0.012,0.0,0.003,,,,,,,,844.766
+Mischief,2020-06-01,AutoARIMA,"ARIMA(0,0,1)(0,1,1)[12] with drift",,,,,0.0,0.0,1.0,0.0,1.0,1.0,603.377
+Robbery,2020-06-01,AutoETS,"ETS(A,N,N)",0.583,,,,,,,,,,692.214
+Robbery,2020-06-01,AutoARIMA,"ARIMA(0,1,1)(1,0,0)[12]",,,,,0.0,1.0,1.0,1.0,0.0,0.0,592.931
+Theft from vehicle,2020-06-01,AutoETS,"ETS(A,A,A)",0.001,0.0,0.001,,,,,,,,887.202
+Theft from vehicle,2020-06-01,AutoARIMA,"ARIMA(2,1,0)(1,0,0)[12]",,,,,2.0,1.0,0.0,1.0,0.0,0.0,773.022
+Vehicle theft,2020-06-01,AutoETS,"ETS(A,N,N)",0.392,,,,,,,,,,772.19
+Vehicle theft,2020-06-01,AutoARIMA,"ARIMA(1,0,0) with non-zero mean",,,,,1.0,0.0,0.0,0.0,0.0,0.0,671.454
+Break and enter,2020-07-01,AutoETS,"ETS(M,N,N)",0.82,,,,,,,,,,863.319
+Break and enter,2020-07-01,AutoARIMA,"ARIMA(1,1,0)(1,0,0)[12]",,,,,1.0,1.0,0.0,1.0,0.0,0.0,759.45
+Mischief,2020-07-01,AutoETS,"ETS(A,A,A)",0.0,0.001,0.0,,,,,,,,856.413
+Mischief,2020-07-01,AutoARIMA,"ARIMA(0,0,1)(0,1,1)[12] with drift",,,,,0.0,0.0,1.0,0.0,1.0,1.0,614.964
+Robbery,2020-07-01,AutoETS,"ETS(A,N,N)",0.576,,,,,,,,,,703.514
+Robbery,2020-07-01,AutoARIMA,"ARIMA(0,1,1)(1,0,0)[12]",,,,,0.0,1.0,1.0,1.0,0.0,0.0,601.295
+Theft from vehicle,2020-07-01,AutoETS,"ETS(A,A,A)",0.002,0.0,0.002,,,,,,,,901.294
+Theft from vehicle,2020-07-01,AutoARIMA,"ARIMA(2,1,0)(1,0,0)[12]",,,,,2.0,1.0,0.0,1.0,0.0,0.0,784.222
+Vehicle theft,2020-07-01,AutoETS,"ETS(A,N,N)",0.389,,,,,,,,,,783.795
+Vehicle theft,2020-07-01,AutoARIMA,"ARIMA(1,0,0) with non-zero mean",,,,,1.0,0.0,0.0,0.0,0.0,0.0,680.654
+Break and enter,2020-08-01,AutoETS,"ETS(M,N,N)",0.842,,,,,,,,,,879.755
+Break and enter,2020-08-01,AutoARIMA,"ARIMA(1,1,0)(0,0,1)[12]",,,,,1.0,1.0,0.0,0.0,0.0,1.0,772.682
+Mischief,2020-08-01,AutoETS,"ETS(A,A,A)",0.0,0.001,0.004,,,,,,,,869.419
+Mischief,2020-08-01,AutoARIMA,"ARIMA(1,0,0)(0,1,1)[12] with drift",,,,,1.0,0.0,0.0,0.0,1.0,1.0,626.741
+Robbery,2020-08-01,AutoETS,"ETS(A,N,N)",0.588,,,,,,,,,,714.496
+Robbery,2020-08-01,AutoARIMA,"ARIMA(1,1,1)(1,0,0)[12]",,,,,1.0,1.0,1.0,1.0,0.0,0.0,609.812
+Theft from vehicle,2020-08-01,AutoETS,"ETS(A,A,A)",0.002,0.0,0.001,,,,,,,,914.559
+Theft from vehicle,2020-08-01,AutoARIMA,"ARIMA(1,0,2)(0,1,1)[12] with drift",,,,,1.0,0.0,2.0,0.0,1.0,1.0,656.882
+Vehicle theft,2020-08-01,AutoETS,"ETS(A,N,N)",0.392,,,,,,,,,,795.477
+Vehicle theft,2020-08-01,AutoARIMA,"ARIMA(1,0,0) with non-zero mean",,,,,1.0,0.0,0.0,0.0,0.0,0.0,689.825
+Break and enter,2020-09-01,AutoETS,"ETS(M,N,N)",0.853,,,,,,,,,,892.53
+Break and enter,2020-09-01,AutoARIMA,"ARIMA(1,1,0)(0,0,1)[12]",,,,,1.0,1.0,0.0,0.0,0.0,1.0,783.202
+Mischief,2020-09-01,AutoETS,"ETS(A,A,A)",0.002,0.0,0.001,,,,,,,,885.04
+Mischief,2020-09-01,AutoARIMA,"ARIMA(1,0,0)(0,1,1)[12] with drift",,,,,1.0,0.0,0.0,0.0,1.0,1.0,637.618
+Robbery,2020-09-01,AutoETS,"ETS(A,N,N)",0.596,,,,,,,,,,725.191
+Robbery,2020-09-01,AutoARIMA,"ARIMA(1,1,1)(1,0,0)[12]",,,,,1.0,1.0,1.0,1.0,0.0,0.0,617.757
+Theft from vehicle,2020-09-01,AutoETS,"ETS(A,A,A)",0.0,0.006,0.0,,,,,,,,927.51
+Theft from vehicle,2020-09-01,AutoARIMA,"ARIMA(1,0,2)(0,1,1)[12] with drift",,,,,1.0,0.0,2.0,0.0,1.0,1.0,668.753
+Vehicle theft,2020-09-01,AutoETS,"ETS(A,N,N)",0.442,,,,,,,,,,812.052
+Vehicle theft,2020-09-01,AutoARIMA,"ARIMA(1,0,0) with non-zero mean",,,,,1.0,0.0,0.0,0.0,0.0,0.0,704.683
+Break and enter,2020-10-01,AutoETS,"ETS(M,N,N)",0.858,,,,,,,,,,905.567
+Break and enter,2020-10-01,AutoARIMA,"ARIMA(0,0,3)(0,1,1)[12] with drift",,,,,0.0,0.0,3.0,0.0,1.0,1.0,670.019
+Mischief,2020-10-01,AutoETS,"ETS(M,N,M)",0.255,,0.001,,,,,,,,897.932
+Mischief,2020-10-01,AutoARIMA,"ARIMA(1,0,0)(0,1,1)[12] with drift",,,,,1.0,0.0,0.0,0.0,1.0,1.0,647.755
+Robbery,2020-10-01,AutoETS,"ETS(A,N,N)",0.61,,,,,,,,,,736.321
+Robbery,2020-10-01,AutoARIMA,"ARIMA(0,1,1)(1,0,0)[12]",,,,,0.0,1.0,1.0,1.0,0.0,0.0,626.967
+Theft from vehicle,2020-10-01,AutoETS,"ETS(A,A,A)",0.0,0.003,0.001,,,,,,,,945.032
+Theft from vehicle,2020-10-01,AutoARIMA,"ARIMA(1,0,2)(0,1,1)[12] with drift",,,,,1.0,0.0,2.0,0.0,1.0,1.0,684.089
+Vehicle theft,2020-10-01,AutoETS,"ETS(A,N,N)",0.571,,,,,,,,,,826.085
+Vehicle theft,2020-10-01,AutoARIMA,"ARIMA(1,0,0) with non-zero mean",,,,,1.0,0.0,0.0,0.0,0.0,0.0,716.961
+Break and enter,2020-11-01,AutoETS,"ETS(M,N,N)",0.846,,,,,,,,,,922.203
+Break and enter,2020-11-01,AutoARIMA,"ARIMA(0,0,2)(0,1,1)[12] with drift",,,,,0.0,0.0,2.0,0.0,1.0,1.0,684.986
+Mischief,2020-11-01,AutoETS,"ETS(A,A,A)",0.0,0.0,0.0,,,,,,,,909.663
+Mischief,2020-11-01,AutoARIMA,"ARIMA(1,0,0)(0,1,1)[12] with drift",,,,,1.0,0.0,0.0,0.0,1.0,1.0,657.949
+Robbery,2020-11-01,AutoETS,"ETS(A,N,N)",0.611,,,,,,,,,,746.746
+Robbery,2020-11-01,AutoARIMA,"ARIMA(0,1,1)(1,0,0)[12]",,,,,0.0,1.0,1.0,1.0,0.0,0.0,634.938
+Theft from vehicle,2020-11-01,AutoETS,"ETS(A,A,A)",0.001,0.0,0.001,,,,,,,,959.185
+Theft from vehicle,2020-11-01,AutoARIMA,"ARIMA(1,0,2)(0,1,1)[12] with drift",,,,,1.0,0.0,2.0,0.0,1.0,1.0,694.595
+Vehicle theft,2020-11-01,AutoETS,"ETS(A,N,N)",0.544,,,,,,,,,,837.903
+Vehicle theft,2020-11-01,AutoARIMA,"ARIMA(1,0,0) with non-zero mean",,,,,1.0,0.0,0.0,0.0,0.0,0.0,726.229
+Break and enter,2020-12-01,AutoETS,"ETS(M,N,N)",0.875,,,,,,,,,,936.19
+Break and enter,2020-12-01,AutoARIMA,"ARIMA(1,0,0)(0,1,1)[12] with drift",,,,,1.0,0.0,0.0,0.0,1.0,1.0,691.353
+Mischief,2020-12-01,AutoETS,"ETS(M,N,M)",0.282,,0.002,,,,,,,,921.719
+Mischief,2020-12-01,AutoARIMA,"ARIMA(1,0,0)(0,1,1)[12] with drift",,,,,1.0,0.0,0.0,0.0,1.0,1.0,669.335
+Robbery,2020-12-01,AutoETS,"ETS(A,N,N)",0.598,,,,,,,,,,759.801
+Robbery,2020-12-01,AutoARIMA,"ARIMA(1,1,1)(1,0,0)[12]",,,,,1.0,1.0,1.0,1.0,0.0,0.0,643.888
+Theft from vehicle,2020-12-01,AutoETS,"ETS(A,A,A)",0.004,0.0,0.002,,,,,,,,972.044
+Theft from vehicle,2020-12-01,AutoARIMA,"ARIMA(1,0,2)(0,1,1)[12] with drift",,,,,1.0,0.0,2.0,0.0,1.0,1.0,705.334
+Vehicle theft,2020-12-01,AutoETS,"ETS(A,N,N)",0.514,,,,,,,,,,850.859
+Vehicle theft,2020-12-01,AutoARIMA,"ARIMA(1,0,0) with non-zero mean",,,,,1.0,0.0,0.0,0.0,0.0,0.0,735.383
+Break and enter,2021-01-01,AutoETS,"ETS(M,N,N)",0.898,,,,,,,,,,950.283
+Break and enter,2021-01-01,AutoARIMA,"ARIMA(1,0,0)(0,1,1)[12] with drift",,,,,1.0,0.0,0.0,0.0,1.0,1.0,702.235
+Mischief,2021-01-01,AutoETS,"ETS(A,A,A)",0.01,0.0,0.0,,,,,,,,936.323
+Mischief,2021-01-01,AutoARIMA,"ARIMA(1,0,0)(0,1,1)[12] with drift",,,,,1.0,0.0,0.0,0.0,1.0,1.0,680.096
+Robbery,2021-01-01,AutoETS,"ETS(A,N,N)",0.613,,,,,,,,,,770.728
+Robbery,2021-01-01,AutoARIMA,"ARIMA(1,1,1)(1,0,0)[12]",,,,,1.0,1.0,1.0,1.0,0.0,0.0,652.03
+Theft from vehicle,2021-01-01,AutoETS,"ETS(A,A,A)",0.006,0.0,0.007,,,,,,,,985.643
+Theft from vehicle,2021-01-01,AutoARIMA,"ARIMA(1,0,2)(0,1,1)[12] with drift",,,,,1.0,0.0,2.0,0.0,1.0,1.0,716.908
+Vehicle theft,2021-01-01,AutoETS,"ETS(A,N,N)",0.579,,,,,,,,,,866.561
+Vehicle theft,2021-01-01,AutoARIMA,"ARIMA(1,0,0) with non-zero mean",,,,,1.0,0.0,0.0,0.0,0.0,0.0,746.014
+Break and enter,2021-02-01,AutoETS,"ETS(A,N,A)",0.388,,0.067,,,,,,,,966.435
+Break and enter,2021-02-01,AutoARIMA,"ARIMA(0,1,1)(0,1,1)[12]",,,,,0.0,1.0,1.0,0.0,1.0,1.0,707.606
+Mischief,2021-02-01,AutoETS,"ETS(A,A,A)",0.002,0.0,0.0,,,,,,,,948.005
+Mischief,2021-02-01,AutoARIMA,"ARIMA(0,0,1)(0,1,1)[12] with drift",,,,,0.0,0.0,1.0,0.0,1.0,1.0,690.777
+Robbery,2021-02-01,AutoETS,"ETS(M,N,N)",0.646,,,,,,,,,,781.159
+Robbery,2021-02-01,AutoARIMA,"ARIMA(1,1,1)(1,0,0)[12]",,,,,1.0,1.0,1.0,1.0,0.0,0.0,660.734
+Theft from vehicle,2021-02-01,AutoETS,"ETS(A,A,A)",0.001,0.001,0.001,,,,,,,,998.53
+Theft from vehicle,2021-02-01,AutoARIMA,"ARIMA(1,0,2)(0,1,1)[12] with drift",,,,,1.0,0.0,2.0,0.0,1.0,1.0,728.349
+Vehicle theft,2021-02-01,AutoETS,"ETS(M,N,N)",0.932,,,,,,,,,,885.055
+Vehicle theft,2021-02-01,AutoARIMA,"ARIMA(2,0,1) with non-zero mean",,,,,2.0,0.0,1.0,0.0,0.0,0.0,763.193
+Break and enter,2021-03-01,AutoETS,"ETS(M,N,N)",0.875,,,,,,,,,,980.688
+Break and enter,2021-03-01,AutoARIMA,"ARIMA(0,1,1)(0,1,1)[12]",,,,,0.0,1.0,1.0,0.0,1.0,1.0,717.961
+Mischief,2021-03-01,AutoETS,"ETS(A,A,A)",0.0,0.0,0.002,,,,,,,,959.492
+Mischief,2021-03-01,AutoARIMA,"ARIMA(0,0,1)(0,1,1)[12] with drift",,,,,0.0,0.0,1.0,0.0,1.0,1.0,700.86
+Robbery,2021-03-01,AutoETS,"ETS(M,N,N)",0.633,,,,,,,,,,791.288
+Robbery,2021-03-01,AutoARIMA,"ARIMA(1,1,1)(1,0,0)[12]",,,,,1.0,1.0,1.0,1.0,0.0,0.0,668.706
+Theft from vehicle,2021-03-01,AutoETS,"ETS(A,A,A)",0.0,0.002,0.007,,,,,,,,1012.223
+Theft from vehicle,2021-03-01,AutoARIMA,"ARIMA(1,0,2)(0,1,1)[12] with drift",,,,,1.0,0.0,2.0,0.0,1.0,1.0,738.869
+Vehicle theft,2021-03-01,AutoETS,"ETS(A,N,N)",0.57,,,,,,,,,,902.327
+Vehicle theft,2021-03-01,AutoARIMA,"ARIMA(1,0,0) with non-zero mean",,,,,1.0,0.0,0.0,0.0,0.0,0.0,775.35
+Break and enter,2021-04-01,AutoETS,"ETS(A,N,A)",0.35,,0.0,,,,,,,,992.013
+Break and enter,2021-04-01,AutoARIMA,"ARIMA(0,1,1)(0,1,1)[12]",,,,,0.0,1.0,1.0,0.0,1.0,1.0,730.015
+Mischief,2021-04-01,AutoETS,"ETS(A,A,A)",0.025,0.0,0.001,,,,,,,,974.79
+Mischief,2021-04-01,AutoARIMA,"ARIMA(0,0,1)(0,1,1)[12] with drift",,,,,0.0,0.0,1.0,0.0,1.0,1.0,716.941
+Robbery,2021-04-01,AutoETS,"ETS(A,N,N)",0.614,,,,,,,,,,804.686
+Robbery,2021-04-01,AutoARIMA,"ARIMA(0,1,1)(1,0,0)[12]",,,,,0.0,1.0,1.0,1.0,0.0,0.0,677.676
+Theft from vehicle,2021-04-01,AutoETS,"ETS(A,A,A)",0.001,0.003,0.001,,,,,,,,1024.745
+Theft from vehicle,2021-04-01,AutoARIMA,"ARIMA(1,0,2)(0,1,1)[12] with drift",,,,,1.0,0.0,2.0,0.0,1.0,1.0,749.298
+Vehicle theft,2021-04-01,AutoETS,"ETS(A,N,N)",0.575,,,,,,,,,,916.037
+Vehicle theft,2021-04-01,AutoARIMA,"ARIMA(1,0,0) with non-zero mean",,,,,1.0,0.0,0.0,0.0,0.0,0.0,785.166
+Break and enter,2021-05-01,AutoETS,"ETS(M,N,N)",0.895,,,,,,,,,,1006.324
+Break and enter,2021-05-01,AutoARIMA,"ARIMA(0,1,1)(0,1,1)[12]",,,,,0.0,1.0,1.0,0.0,1.0,1.0,740.444
+Mischief,2021-05-01,AutoETS,"ETS(A,A,A)",0.011,0.0,0.001,,,,,,,,985.631
+Mischief,2021-05-01,AutoARIMA,"ARIMA(0,0,1)(0,1,1)[12] with drift",,,,,0.0,0.0,1.0,0.0,1.0,1.0,727.08
+Robbery,2021-05-01,AutoETS,"ETS(A,N,N)",0.59,,,,,,,,,,816.554
+Robbery,2021-05-01,AutoARIMA,"ARIMA(1,1,1)(1,0,0)[12]",,,,,1.0,1.0,1.0,1.0,0.0,0.0,686.783
+Theft from vehicle,2021-05-01,AutoETS,"ETS(A,A,A)",0.001,0.0,0.003,,,,,,,,1039.529
+Theft from vehicle,2021-05-01,AutoARIMA,"ARIMA(1,1,3)(1,0,0)[12]",,,,,1.0,1.0,3.0,1.0,0.0,0.0,911.126
+Vehicle theft,2021-05-01,AutoETS,"ETS(A,N,N)",0.726,,,,,,,,,,931.788
+Vehicle theft,2021-05-01,AutoARIMA,"ARIMA(1,0,0) with non-zero mean",,,,,1.0,0.0,0.0,0.0,0.0,0.0,798.768
+Break and enter,2021-06-01,AutoETS,"ETS(M,N,A)",0.475,,0.007,,,,,,,,1016.361
+Break and enter,2021-06-01,AutoARIMA,"ARIMA(1,0,0)(0,1,1)[12] with drift",,,,,1.0,0.0,0.0,0.0,1.0,1.0,754.135
+Mischief,2021-06-01,AutoETS,"ETS(A,A,A)",0.014,0.0,0.001,,,,,,,,999.225
+Mischief,2021-06-01,AutoARIMA,"ARIMA(0,0,1)(0,1,1)[12] with drift",,,,,0.0,0.0,1.0,0.0,1.0,1.0,737.326
+Robbery,2021-06-01,AutoETS,"ETS(A,N,N)",0.604,,,,,,,,,,829.778
+Robbery,2021-06-01,AutoARIMA,"ARIMA(1,1,1)(1,0,0)[12]",,,,,1.0,1.0,1.0,1.0,0.0,0.0,696.311
+Theft from vehicle,2021-06-01,AutoETS,"ETS(A,A,A)",0.0,0.0,0.002,,,,,,,,1055.268
+Theft from vehicle,2021-06-01,AutoARIMA,"ARIMA(1,1,2)(1,0,0)[12]",,,,,1.0,1.0,2.0,1.0,0.0,0.0,922.073
+Vehicle theft,2021-06-01,AutoETS,"ETS(A,N,N)",0.86,,,,,,,,,,951.777
+Vehicle theft,2021-06-01,AutoARIMA,"ARIMA(1,0,0) with non-zero mean",,,,,1.0,0.0,0.0,0.0,0.0,0.0,822.25
+Break and enter,2021-07-01,AutoETS,"ETS(A,N,A)",0.49,,0.004,,,,,,,,1023.713
+Break and enter,2021-07-01,AutoARIMA,"ARIMA(1,0,0)(0,1,1)[12] with drift",,,,,1.0,0.0,0.0,0.0,1.0,1.0,764.262
+Mischief,2021-07-01,AutoETS,"ETS(A,Ad,A)",0.001,0.0,0.001,0.979,,,,,,,1011.875
+Mischief,2021-07-01,AutoARIMA,"ARIMA(0,0,1)(0,1,1)[12] with drift",,,,,0.0,0.0,1.0,0.0,1.0,1.0,748.528
+Robbery,2021-07-01,AutoETS,"ETS(A,N,N)",0.595,,,,,,,,,,840.42
+Robbery,2021-07-01,AutoARIMA,"ARIMA(1,1,1)(1,0,0)[12]",,,,,1.0,1.0,1.0,1.0,0.0,0.0,704.564
+Theft from vehicle,2021-07-01,AutoETS,"ETS(A,A,A)",0.008,0.0,0.001,,,,,,,,1073.019
+Theft from vehicle,2021-07-01,AutoARIMA,"ARIMA(1,1,2)(1,0,0)[12]",,,,,1.0,1.0,2.0,1.0,0.0,0.0,936.226
+Vehicle theft,2021-07-01,AutoETS,"ETS(A,N,N)",0.932,,,,,,,,,,966.321
+Vehicle theft,2021-07-01,AutoARIMA,"ARIMA(1,0,0) with non-zero mean",,,,,1.0,0.0,0.0,0.0,0.0,0.0,840.006
+Break and enter,2021-08-01,AutoETS,"ETS(M,N,M)",0.429,,0.011,,,,,,,,1044.513
+Break and enter,2021-08-01,AutoARIMA,"ARIMA(1,0,0)(0,1,1)[12] with drift",,,,,1.0,0.0,0.0,0.0,1.0,1.0,774.75
+Mischief,2021-08-01,AutoETS,"ETS(A,Ad,A)",0.0,0.0,0.002,0.98,,,,,,,1025.25
+Mischief,2021-08-01,AutoARIMA,"ARIMA(0,0,1)(0,1,1)[12] with drift",,,,,0.0,0.0,1.0,0.0,1.0,1.0,760.355
+Robbery,2021-08-01,AutoETS,"ETS(A,N,N)",0.597,,,,,,,,,,850.998
+Robbery,2021-08-01,AutoARIMA,"ARIMA(1,1,1)(1,0,0)[12]",,,,,1.0,1.0,1.0,1.0,0.0,0.0,712.521
+Theft from vehicle,2021-08-01,AutoETS,"ETS(A,A,A)",0.002,0.0,0.0,,,,,,,,1086.704
+Theft from vehicle,2021-08-01,AutoARIMA,"ARIMA(1,1,2)(1,0,0)[12]",,,,,1.0,1.0,2.0,1.0,0.0,0.0,947.019
+Vehicle theft,2021-08-01,AutoETS,"ETS(A,N,N)",0.949,,,,,,,,,,979.115
+Vehicle theft,2021-08-01,AutoARIMA,"ARIMA(1,0,0) with non-zero mean",,,,,1.0,0.0,0.0,0.0,0.0,0.0,853.305
+Break and enter,2021-09-01,AutoETS,"ETS(M,N,M)",0.418,,0.014,,,,,,,,1058.407
+Break and enter,2021-09-01,AutoARIMA,"ARIMA(1,0,0)(0,1,1)[12] with drift",,,,,1.0,0.0,0.0,0.0,1.0,1.0,785.326
+Mischief,2021-09-01,AutoETS,"ETS(A,Ad,A)",0.001,0.0,0.011,0.98,,,,,,,1038.99
+Mischief,2021-09-01,AutoARIMA,"ARIMA(0,0,1)(0,1,1)[12] with drift",,,,,0.0,0.0,1.0,0.0,1.0,1.0,770.361
+Robbery,2021-09-01,AutoETS,"ETS(A,N,N)",0.608,,,,,,,,,,866.713
+Robbery,2021-09-01,AutoARIMA,"ARIMA(1,1,1)(1,0,0)[12]",,,,,1.0,1.0,1.0,1.0,0.0,0.0,726.158
+Theft from vehicle,2021-09-01,AutoETS,"ETS(A,N,A)",0.23,,0.0,,,,,,,,1102.104
+Theft from vehicle,2021-09-01,AutoARIMA,"ARIMA(2,1,2)(0,0,2)[12]",,,,,2.0,1.0,2.0,0.0,0.0,2.0,963.956
+Vehicle theft,2021-09-01,AutoETS,"ETS(A,N,N)",0.938,,,,,,,,,,992.357
+Vehicle theft,2021-09-01,AutoARIMA,"ARIMA(1,0,0) with non-zero mean",,,,,1.0,0.0,0.0,0.0,0.0,0.0,862.869
+Break and enter,2021-10-01,AutoETS,"ETS(M,N,N)",0.911,,,,,,,,,,1071.823
+Break and enter,2021-10-01,AutoARIMA,"ARIMA(1,0,0)(0,1,1)[12] with drift",,,,,1.0,0.0,0.0,0.0,1.0,1.0,795.807
+Mischief,2021-10-01,AutoETS,"ETS(A,N,A)",0.299,,0.0,,,,,,,,1051.298
+Mischief,2021-10-01,AutoARIMA,"ARIMA(0,0,1)(0,1,1)[12] with drift",,,,,0.0,0.0,1.0,0.0,1.0,1.0,781.57
+Robbery,2021-10-01,AutoETS,"ETS(A,N,N)",0.608,,,,,,,,,,877.332
+Robbery,2021-10-01,AutoARIMA,"ARIMA(1,1,1)(1,0,0)[12]",,,,,1.0,1.0,1.0,1.0,0.0,0.0,734.097
+Theft from vehicle,2021-10-01,AutoETS,"ETS(A,N,A)",0.187,,0.0,,,,,,,,1117.038
+Theft from vehicle,2021-10-01,AutoARIMA,"ARIMA(1,1,2)(1,0,0)[12]",,,,,1.0,1.0,2.0,1.0,0.0,0.0,974.427
+Vehicle theft,2021-10-01,AutoETS,"ETS(A,N,N)",0.914,,,,,,,,,,1007.62
+Vehicle theft,2021-10-01,AutoARIMA,"ARIMA(0,1,0)",,,,,0.0,1.0,0.0,0.0,0.0,0.0,865.615
+Break and enter,2021-11-01,AutoETS,"ETS(M,N,N)",0.912,,,,,,,,,,1084.507
+Break and enter,2021-11-01,AutoARIMA,"ARIMA(1,0,0)(0,1,1)[12] with drift",,,,,1.0,0.0,0.0,0.0,1.0,1.0,805.911
+Mischief,2021-11-01,AutoETS,"ETS(A,Ad,A)",0.002,0.0,0.003,0.979,,,,,,,1063.84
+Mischief,2021-11-01,AutoARIMA,"ARIMA(0,1,2)(0,1,1)[12]",,,,,0.0,1.0,2.0,0.0,1.0,1.0,784.908
+Robbery,2021-11-01,AutoETS,"ETS(A,N,N)",0.608,,,,,,,,,,887.95
+Robbery,2021-11-01,AutoARIMA,"ARIMA(1,1,1)(1,0,0)[12]",,,,,1.0,1.0,1.0,1.0,0.0,0.0,742.327
+Theft from vehicle,2021-11-01,AutoETS,"ETS(A,N,A)",0.212,,0.0,,,,,,,,1131.618
+Theft from vehicle,2021-11-01,AutoARIMA,"ARIMA(0,1,2)(1,0,0)[12]",,,,,0.0,1.0,2.0,1.0,0.0,0.0,987.539
+Vehicle theft,2021-11-01,AutoETS,"ETS(A,N,N)",0.888,,,,,,,,,,1021.531
+Vehicle theft,2021-11-01,AutoARIMA,"ARIMA(0,1,0)",,,,,0.0,1.0,0.0,0.0,0.0,0.0,877.401
+Break and enter,2021-12-01,AutoETS,"ETS(M,N,N)",1.0,,,,,,,,,,1101.259
+Break and enter,2021-12-01,AutoARIMA,"ARIMA(1,0,0)(0,1,1)[12] with drift",,,,,1.0,0.0,0.0,0.0,1.0,1.0,816.275
+Mischief,2021-12-01,AutoETS,"ETS(M,N,A)",0.243,,0.003,,,,,,,,1075.455
+Mischief,2021-12-01,AutoARIMA,"ARIMA(0,0,1)(0,1,1)[12] with drift",,,,,0.0,0.0,1.0,0.0,1.0,1.0,802.188
+Robbery,2021-12-01,AutoETS,"ETS(A,N,N)",0.606,,,,,,,,,,899.16
+Robbery,2021-12-01,AutoARIMA,"ARIMA(1,1,1)(1,0,0)[12]",,,,,1.0,1.0,1.0,1.0,0.0,0.0,750.238
+Theft from vehicle,2021-12-01,AutoETS,"ETS(A,N,A)",0.223,,0.008,,,,,,,,1147.02
+Theft from vehicle,2021-12-01,AutoARIMA,"ARIMA(1,1,2)(1,0,0)[12]",,,,,1.0,1.0,2.0,1.0,0.0,0.0,1001.501
+Vehicle theft,2021-12-01,AutoETS,"ETS(A,N,N)",0.884,,,,,,,,,,1033.872
+Vehicle theft,2021-12-01,AutoARIMA,"ARIMA(0,1,0)",,,,,0.0,1.0,0.0,0.0,0.0,0.0,887.299
+Break and enter,2022-01-01,AutoETS,"ETS(M,N,N)",0.931,,,,,,,,,,1113.137
+Break and enter,2022-01-01,AutoARIMA,"ARIMA(1,0,0)(0,1,1)[12] with drift",,,,,1.0,0.0,0.0,0.0,1.0,1.0,826.36
+Mischief,2022-01-01,AutoETS,"ETS(M,N,A)",0.238,,0.008,,,,,,,,1088.327
+Mischief,2022-01-01,AutoARIMA,"ARIMA(0,1,2)(0,1,1)[12]",,,,,0.0,1.0,2.0,0.0,1.0,1.0,805.541
+Robbery,2022-01-01,AutoETS,"ETS(A,N,N)",0.611,,,,,,,,,,910.357
+Robbery,2022-01-01,AutoARIMA,"ARIMA(1,1,1)(1,0,0)[12]",,,,,1.0,1.0,1.0,1.0,0.0,0.0,758.188
+Theft from vehicle,2022-01-01,AutoETS,"ETS(A,N,A)",0.215,,0.016,,,,,,,,1161.39
+Theft from vehicle,2022-01-01,AutoARIMA,"ARIMA(1,1,1)(1,0,1)[12]",,,,,1.0,1.0,1.0,1.0,0.0,1.0,1012.276
+Vehicle theft,2022-01-01,AutoETS,"ETS(A,N,N)",0.88,,,,,,,,,,1047.131
+Vehicle theft,2022-01-01,AutoARIMA,"ARIMA(0,1,0)",,,,,0.0,1.0,0.0,0.0,0.0,0.0,898.042
+Break and enter,2022-02-01,AutoETS,"ETS(A,A,A)",0.409,0.017,0.036,,,,,,,,1123.18
+Break and enter,2022-02-01,AutoARIMA,"ARIMA(1,0,0)(0,1,1)[12] with drift",,,,,1.0,0.0,0.0,0.0,1.0,1.0,838.443
+Mischief,2022-02-01,AutoETS,"ETS(M,N,M)",0.229,,0.008,,,,,,,,1101.431
+Mischief,2022-02-01,AutoARIMA,"ARIMA(0,1,2)(0,1,1)[12]",,,,,0.0,1.0,2.0,0.0,1.0,1.0,816.073
+Robbery,2022-02-01,AutoETS,"ETS(A,N,N)",0.613,,,,,,,,,,921.03
+Robbery,2022-02-01,AutoARIMA,"ARIMA(1,1,1)(1,0,0)[12]",,,,,1.0,1.0,1.0,1.0,0.0,0.0,766.132
+Theft from vehicle,2022-02-01,AutoETS,"ETS(A,N,A)",0.252,,0.002,,,,,,,,1172.746
+Theft from vehicle,2022-02-01,AutoARIMA,"ARIMA(0,1,2)(1,0,0)[12]",,,,,0.0,1.0,2.0,1.0,0.0,0.0,1022.032
+Vehicle theft,2022-02-01,AutoETS,"ETS(A,N,N)",0.898,,,,,,,,,,1061.642
+Vehicle theft,2022-02-01,AutoARIMA,"ARIMA(0,1,0)",,,,,0.0,1.0,0.0,0.0,0.0,0.0,909.599
+Break and enter,2022-03-01,AutoETS,"ETS(M,N,M)",0.407,,0.022,,,,,,,,1136.217
+Break and enter,2022-03-01,AutoARIMA,"ARIMA(1,0,0)(0,1,1)[12] with drift",,,,,1.0,0.0,0.0,0.0,1.0,1.0,849.623
+Mischief,2022-03-01,AutoETS,"ETS(M,N,A)",0.266,,0.001,,,,,,,,1112.136
+Mischief,2022-03-01,AutoARIMA,"ARIMA(0,1,2)(0,1,1)[12]",,,,,0.0,1.0,2.0,0.0,1.0,1.0,827.369
+Robbery,2022-03-01,AutoETS,"ETS(A,N,A)",0.361,,0.0,,,,,,,,932.107
+Robbery,2022-03-01,AutoARIMA,"ARIMA(1,1,1)(1,0,0)[12]",,,,,1.0,1.0,1.0,1.0,0.0,0.0,774.766
+Theft from vehicle,2022-03-01,AutoETS,"ETS(A,N,A)",0.246,,0.009,,,,,,,,1187.999
+Theft from vehicle,2022-03-01,AutoARIMA,"ARIMA(0,1,2)(1,0,0)[12]",,,,,0.0,1.0,2.0,1.0,0.0,0.0,1034.286
+Vehicle theft,2022-03-01,AutoETS,"ETS(A,N,N)",0.865,,,,,,,,,,1076.878
+Vehicle theft,2022-03-01,AutoARIMA,"ARIMA(0,1,0)",,,,,0.0,1.0,0.0,0.0,0.0,0.0,922.794
+Break and enter,2022-04-01,AutoETS,"ETS(M,N,M)",0.449,,0.02,,,,,,,,1149.437
+Break and enter,2022-04-01,AutoARIMA,"ARIMA(1,0,0)(0,1,1)[12] with drift",,,,,1.0,0.0,0.0,0.0,1.0,1.0,862.738
+Mischief,2022-04-01,AutoETS,"ETS(M,N,A)",0.235,,0.002,,,,,,,,1125.192
+Mischief,2022-04-01,AutoARIMA,"ARIMA(0,1,2)(0,1,1)[12]",,,,,0.0,1.0,2.0,0.0,1.0,1.0,838.186
+Robbery,2022-04-01,AutoETS,"ETS(A,N,N)",0.606,,,,,,,,,,943.065
+Robbery,2022-04-01,AutoARIMA,"ARIMA(1,1,1)(1,0,0)[12]",,,,,1.0,1.0,1.0,1.0,0.0,0.0,782.645
+Theft from vehicle,2022-04-01,AutoETS,"ETS(A,N,A)",0.26,,0.005,,,,,,,,1202.992
+Theft from vehicle,2022-04-01,AutoARIMA,"ARIMA(0,1,2)(1,0,0)[12]",,,,,0.0,1.0,2.0,1.0,0.0,0.0,1045.254
+Vehicle theft,2022-04-01,AutoETS,"ETS(A,N,N)",0.891,,,,,,,,,,1091.362
+Vehicle theft,2022-04-01,AutoARIMA,"ARIMA(0,1,0)",,,,,0.0,1.0,0.0,0.0,0.0,0.0,934.065
+Break and enter,2022-05-01,AutoETS,"ETS(M,N,A)",0.505,,0.016,,,,,,,,1161.554
+Break and enter,2022-05-01,AutoARIMA,"ARIMA(1,0,0)(0,1,1)[12] with drift",,,,,1.0,0.0,0.0,0.0,1.0,1.0,877.353
+Mischief,2022-05-01,AutoETS,"ETS(M,N,A)",0.252,,0.006,,,,,,,,1137.607
+Mischief,2022-05-01,AutoARIMA,"ARIMA(0,1,2)(0,1,1)[12]",,,,,0.0,1.0,2.0,0.0,1.0,1.0,849.118
+Robbery,2022-05-01,AutoETS,"ETS(A,N,N)",0.603,,,,,,,,,,953.951
+Robbery,2022-05-01,AutoARIMA,"ARIMA(1,1,1)(1,0,0)[12]",,,,,1.0,1.0,1.0,1.0,0.0,0.0,790.739
+Theft from vehicle,2022-05-01,AutoETS,"ETS(A,N,A)",0.276,,0.001,,,,,,,,1213.853
+Theft from vehicle,2022-05-01,AutoARIMA,"ARIMA(0,1,2)(1,0,0)[12]",,,,,0.0,1.0,2.0,1.0,0.0,0.0,1056.125
+Vehicle theft,2022-05-01,AutoETS,"ETS(M,N,N)",0.811,,,,,,,,,,1109.097
+Vehicle theft,2022-05-01,AutoARIMA,"ARIMA(0,1,0)",,,,,0.0,1.0,0.0,0.0,0.0,0.0,950.323
+Break and enter,2022-06-01,AutoETS,"ETS(M,N,N)",0.942,,,,,,,,,,1183.42
+Break and enter,2022-06-01,AutoARIMA,"ARIMA(1,0,0)(0,1,1)[12] with drift",,,,,1.0,0.0,0.0,0.0,1.0,1.0,887.538
+Mischief,2022-06-01,AutoETS,"ETS(M,N,A)",0.236,,0.007,,,,,,,,1152.678
+Mischief,2022-06-01,AutoARIMA,"ARIMA(0,1,2)(0,1,1)[12]",,,,,0.0,1.0,2.0,0.0,1.0,1.0,860.899
+Robbery,2022-06-01,AutoETS,"ETS(A,N,N)",0.61,,,,,,,,,,965.647
+Robbery,2022-06-01,AutoARIMA,"ARIMA(0,1,1)(1,0,0)[12]",,,,,0.0,1.0,1.0,1.0,0.0,0.0,799.324
+Theft from vehicle,2022-06-01,AutoETS,"ETS(A,N,A)",0.301,,0.006,,,,,,,,1228.377
+Theft from vehicle,2022-06-01,AutoARIMA,"ARIMA(0,1,2)(1,0,0)[12]",,,,,0.0,1.0,2.0,1.0,0.0,0.0,1067.154
+Vehicle theft,2022-06-01,AutoETS,"ETS(M,N,N)",0.828,,,,,,,,,,1123.803
+Vehicle theft,2022-06-01,AutoARIMA,"ARIMA(0,1,0)",,,,,0.0,1.0,0.0,0.0,0.0,0.0,961.996
+Break and enter,2022-07-01,AutoETS,"ETS(M,N,A)",0.576,,0.005,,,,,,,,1184.494
+Break and enter,2022-07-01,AutoARIMA,"ARIMA(1,0,0)(0,1,1)[12] with drift",,,,,1.0,0.0,0.0,0.0,1.0,1.0,898.12
+Mischief,2022-07-01,AutoETS,"ETS(A,N,A)",0.245,,0.001,,,,,,,,1166.555
+Mischief,2022-07-01,AutoARIMA,"ARIMA(0,1,2)(0,1,1)[12]",,,,,0.0,1.0,2.0,0.0,1.0,1.0,870.976
+Robbery,2022-07-01,AutoETS,"ETS(A,N,N)",0.608,,,,,,,,,,976.314
+Robbery,2022-07-01,AutoARIMA,"ARIMA(0,1,1)(1,0,0)[12]",,,,,0.0,1.0,1.0,1.0,0.0,0.0,807.21
+Theft from vehicle,2022-07-01,AutoETS,"ETS(A,N,A)",0.212,,0.003,,,,,,,,1247.386
+Theft from vehicle,2022-07-01,AutoARIMA,"ARIMA(0,1,2)(1,0,0)[12]",,,,,0.0,1.0,2.0,1.0,0.0,0.0,1078.868
+Vehicle theft,2022-07-01,AutoETS,"ETS(M,N,N)",0.822,,,,,,,,,,1138.0
+Vehicle theft,2022-07-01,AutoARIMA,"ARIMA(0,1,0)",,,,,0.0,1.0,0.0,0.0,0.0,0.0,973.139
+Break and enter,2022-08-01,AutoETS,"ETS(M,N,A)",0.526,,0.036,,,,,,,,1206.254
+Break and enter,2022-08-01,AutoARIMA,"ARIMA(1,0,0)(0,1,1)[12] with drift",,,,,1.0,0.0,0.0,0.0,1.0,1.0,914.353
+Mischief,2022-08-01,AutoETS,"ETS(M,N,A)",0.244,,0.005,,,,,,,,1176.729
+Mischief,2022-08-01,AutoARIMA,"ARIMA(0,1,2)(0,1,1)[12]",,,,,0.0,1.0,2.0,0.0,1.0,1.0,880.929
+Robbery,2022-08-01,AutoETS,"ETS(A,N,N)",0.603,,,,,,,,,,987.82
+Robbery,2022-08-01,AutoARIMA,"ARIMA(1,1,1)(1,0,0)[12]",,,,,1.0,1.0,1.0,1.0,0.0,0.0,815.566
+Theft from vehicle,2022-08-01,AutoETS,"ETS(A,N,A)",0.277,,0.0,,,,,,,,1255.548
+Theft from vehicle,2022-08-01,AutoARIMA,"ARIMA(0,1,2)(1,0,0)[12]",,,,,0.0,1.0,2.0,1.0,0.0,0.0,1090.277
+Vehicle theft,2022-08-01,AutoETS,"ETS(M,N,N)",0.822,,,,,,,,,,1152.022
+Vehicle theft,2022-08-01,AutoARIMA,"ARIMA(0,1,0)",,,,,0.0,1.0,0.0,0.0,0.0,0.0,983.309
+Break and enter,2022-09-01,AutoETS,"ETS(M,A,A)",0.551,0.001,0.003,,,,,,,,1224.041
+Break and enter,2022-09-01,AutoARIMA,"ARIMA(1,0,0)(0,1,1)[12] with drift",,,,,1.0,0.0,0.0,0.0,1.0,1.0,924.975
+Mischief,2022-09-01,AutoETS,"ETS(M,N,A)",0.248,,0.003,,,,,,,,1189.566
+Mischief,2022-09-01,AutoARIMA,"ARIMA(0,1,2)(0,1,1)[12]",,,,,0.0,1.0,2.0,0.0,1.0,1.0,891.375
+Robbery,2022-09-01,AutoETS,"ETS(A,N,N)",0.602,,,,,,,,,,998.496
+Robbery,2022-09-01,AutoARIMA,"ARIMA(1,1,1)(1,0,0)[12]",,,,,1.0,1.0,1.0,1.0,0.0,0.0,823.44
+Theft from vehicle,2022-09-01,AutoETS,"ETS(A,N,A)",0.3,,0.001,,,,,,,,1269.827
+Theft from vehicle,2022-09-01,AutoARIMA,"ARIMA(0,1,2)(1,0,0)[12]",,,,,0.0,1.0,2.0,1.0,0.0,0.0,1102.084
+Vehicle theft,2022-09-01,AutoETS,"ETS(A,N,N)",0.967,,,,,,,,,,1165.878
+Vehicle theft,2022-09-01,AutoARIMA,"ARIMA(0,1,0)",,,,,0.0,1.0,0.0,0.0,0.0,0.0,994.367
+Break and enter,2022-10-01,AutoETS,"ETS(M,A,A)",0.562,0.001,0.003,,,,,,,,1237.407
+Break and enter,2022-10-01,AutoARIMA,"ARIMA(1,0,0)(0,1,1)[12] with drift",,,,,1.0,0.0,0.0,0.0,1.0,1.0,936.084
+Mischief,2022-10-01,AutoETS,"ETS(M,N,A)",0.258,,0.0,,,,,,,,1201.594
+Mischief,2022-10-01,AutoARIMA,"ARIMA(0,1,2)(0,1,1)[12]",,,,,0.0,1.0,2.0,0.0,1.0,1.0,901.36
+Robbery,2022-10-01,AutoETS,"ETS(M,N,A)",0.437,,0.001,,,,,,,,1014.414
+Robbery,2022-10-01,AutoARIMA,"ARIMA(1,1,1)(1,0,0)[12]",,,,,1.0,1.0,1.0,1.0,0.0,0.0,838.791
+Theft from vehicle,2022-10-01,AutoETS,"ETS(A,N,A)",0.28,,0.002,,,,,,,,1286.675
+Theft from vehicle,2022-10-01,AutoARIMA,"ARIMA(2,1,2)(0,0,2)[12]",,,,,2.0,1.0,2.0,0.0,0.0,2.0,1121.804
+Vehicle theft,2022-10-01,AutoETS,"ETS(M,N,N)",0.818,,,,,,,,,,1180.967
+Vehicle theft,2022-10-01,AutoARIMA,"ARIMA(0,1,0)",,,,,0.0,1.0,0.0,0.0,0.0,0.0,1007.316
+Break and enter,2022-11-01,AutoETS,"ETS(M,A,A)",0.5,0.0,0.002,,,,,,,,1250.365
+Break and enter,2022-11-01,AutoARIMA,"ARIMA(1,0,0)(0,1,1)[12] with drift",,,,,1.0,0.0,0.0,0.0,1.0,1.0,946.302
+Mischief,2022-11-01,AutoETS,"ETS(A,N,A)",0.282,,0.001,,,,,,,,1215.502
+Mischief,2022-11-01,AutoARIMA,"ARIMA(0,1,2)(0,1,1)[12]",,,,,0.0,1.0,2.0,0.0,1.0,1.0,911.296
+Robbery,2022-11-01,AutoETS,"ETS(A,N,A)",0.365,,0.0,,,,,,,,1028.463
+Robbery,2022-11-01,AutoARIMA,"ARIMA(0,1,1)(1,0,0)[12]",,,,,0.0,1.0,1.0,1.0,0.0,0.0,849.575
+Theft from vehicle,2022-11-01,AutoETS,"ETS(A,N,A)",0.253,,0.001,,,,,,,,1300.983
+Theft from vehicle,2022-11-01,AutoARIMA,"ARIMA(0,1,2)(2,0,0)[12]",,,,,0.0,1.0,2.0,2.0,0.0,0.0,1126.759
+Vehicle theft,2022-11-01,AutoETS,"ETS(M,N,N)",0.828,,,,,,,,,,1197.462
+Vehicle theft,2022-11-01,AutoARIMA,"ARIMA(0,1,0)",,,,,0.0,1.0,0.0,0.0,0.0,0.0,1026.063
+Break and enter,2022-12-01,AutoETS,"ETS(M,N,A)",0.395,,0.005,,,,,,,,1266.319
+Break and enter,2022-12-01,AutoARIMA,"ARIMA(1,0,0)(0,1,1)[12] with drift",,,,,1.0,0.0,0.0,0.0,1.0,1.0,956.789
+Mischief,2022-12-01,AutoETS,"ETS(A,N,A)",0.237,,0.009,,,,,,,,1232.405
+Mischief,2022-12-01,AutoARIMA,"ARIMA(0,1,2)(0,1,1)[12]",,,,,0.0,1.0,2.0,0.0,1.0,1.0,924.453
+Robbery,2022-12-01,AutoETS,"ETS(M,N,A)",0.411,,0.0,,,,,,,,1039.386
+Robbery,2022-12-01,AutoARIMA,"ARIMA(2,1,0)(1,0,0)[12]",,,,,2.0,1.0,0.0,1.0,0.0,0.0,858.014
+Theft from vehicle,2022-12-01,AutoETS,"ETS(A,N,A)",0.287,,0.003,,,,,,,,1313.687
+Theft from vehicle,2022-12-01,AutoARIMA,"ARIMA(0,1,2)(2,0,0)[12]",,,,,0.0,1.0,2.0,2.0,0.0,0.0,1139.304
+Vehicle theft,2022-12-01,AutoETS,"ETS(M,N,N)",0.8,,,,,,,,,,1212.365
+Vehicle theft,2022-12-01,AutoARIMA,"ARIMA(0,1,0)",,,,,0.0,1.0,0.0,0.0,0.0,0.0,1041.952
+Break and enter,2023-01-01,AutoETS,"ETS(M,N,M)",0.424,,0.032,,,,,,,,1280.419
+Break and enter,2023-01-01,AutoARIMA,"ARIMA(0,1,1)(0,1,1)[12]",,,,,0.0,1.0,1.0,0.0,1.0,1.0,963.103
+Mischief,2023-01-01,AutoETS,"ETS(M,N,M)",0.212,,0.006,,,,,,,,1246.271
+Mischief,2023-01-01,AutoARIMA,"ARIMA(0,1,2)(0,1,1)[12]",,,,,0.0,1.0,2.0,0.0,1.0,1.0,935.328
+Robbery,2023-01-01,AutoETS,"ETS(A,N,N)",0.514,,,,,,,,,,1055.333
+Robbery,2023-01-01,AutoARIMA,"ARIMA(0,1,1)(1,0,0)[12]",,,,,0.0,1.0,1.0,1.0,0.0,0.0,870.839
+Theft from vehicle,2023-01-01,AutoETS,"ETS(A,N,A)",0.274,,0.0,,,,,,,,1329.01
+Theft from vehicle,2023-01-01,AutoARIMA,"ARIMA(0,1,2)(2,0,0)[12]",,,,,0.0,1.0,2.0,2.0,0.0,0.0,1151.219
+Vehicle theft,2023-01-01,AutoETS,"ETS(M,N,N)",0.809,,,,,,,,,,1227.135
+Vehicle theft,2023-01-01,AutoARIMA,"ARIMA(0,1,0)",,,,,0.0,1.0,0.0,0.0,0.0,0.0,1053.772
+Break and enter,2023-02-01,AutoETS,"ETS(M,Ad,A)",0.542,0.015,0.003,0.948,,,,,,,1290.791
+Break and enter,2023-02-01,AutoARIMA,"ARIMA(0,1,1)(0,1,1)[12]",,,,,0.0,1.0,1.0,0.0,1.0,1.0,973.393
+Mischief,2023-02-01,AutoETS,"ETS(A,N,A)",0.298,,0.003,,,,,,,,1258.48
+Mischief,2023-02-01,AutoARIMA,"ARIMA(0,1,2)(0,1,1)[12]",,,,,0.0,1.0,2.0,0.0,1.0,1.0,945.322
+Robbery,2023-02-01,AutoETS,"ETS(A,N,A)",0.311,,0.002,,,,,,,,1066.427
+Robbery,2023-02-01,AutoARIMA,"ARIMA(0,1,1)(1,0,0)[12]",,,,,0.0,1.0,1.0,1.0,0.0,0.0,879.928
+Theft from vehicle,2023-02-01,AutoETS,"ETS(A,N,A)",0.276,,0.0,,,,,,,,1343.642
+Theft from vehicle,2023-02-01,AutoARIMA,"ARIMA(0,1,2)(2,0,0)[12]",,,,,0.0,1.0,2.0,2.0,0.0,0.0,1166.514
+Vehicle theft,2023-02-01,AutoETS,"ETS(M,N,N)",0.798,,,,,,,,,,1241.956
+Vehicle theft,2023-02-01,AutoARIMA,"ARIMA(0,1,0)",,,,,0.0,1.0,0.0,0.0,0.0,0.0,1067.898
+Break and enter,2023-03-01,AutoETS,"ETS(M,N,A)",0.564,,0.037,,,,,,,,1297.765
+Break and enter,2023-03-01,AutoARIMA,"ARIMA(0,1,1)(0,1,1)[12]",,,,,0.0,1.0,1.0,0.0,1.0,1.0,983.873
+Mischief,2023-03-01,AutoETS,"ETS(M,N,M)",0.185,,0.005,,,,,,,,1271.408
+Mischief,2023-03-01,AutoARIMA,"ARIMA(0,1,2)(0,1,1)[12]",,,,,0.0,1.0,2.0,0.0,1.0,1.0,955.7
+Robbery,2023-03-01,AutoETS,"ETS(A,N,A)",0.346,,0.0,,,,,,,,1079.467
+Robbery,2023-03-01,AutoARIMA,"ARIMA(0,1,1)(1,0,0)[12]",,,,,0.0,1.0,1.0,1.0,0.0,0.0,890.378
+Theft from vehicle,2023-03-01,AutoETS,"ETS(A,N,A)",0.264,,0.001,,,,,,,,1357.789
+Theft from vehicle,2023-03-01,AutoARIMA,"ARIMA(0,1,2)(2,0,0)[12]",,,,,0.0,1.0,2.0,2.0,0.0,0.0,1177.361
+Vehicle theft,2023-03-01,AutoETS,"ETS(M,N,N)",0.787,,,,,,,,,,1257.531
+Vehicle theft,2023-03-01,AutoARIMA,"ARIMA(1,1,1)(1,0,0)[12]",,,,,1.0,1.0,1.0,1.0,0.0,0.0,1081.763
+Break and enter,2023-04-01,AutoETS,"ETS(M,Ad,A)",0.679,0.014,0.0,0.845,,,,,,,1312.909
+Break and enter,2023-04-01,AutoARIMA,"ARIMA(0,1,1)(0,1,1)[12]",,,,,0.0,1.0,1.0,0.0,1.0,1.0,994.153
+Mischief,2023-04-01,AutoETS,"ETS(A,N,A)",0.239,,0.003,,,,,,,,1284.39
+Mischief,2023-04-01,AutoARIMA,"ARIMA(0,1,2)(0,1,1)[12]",,,,,0.0,1.0,2.0,0.0,1.0,1.0,965.682
+Robbery,2023-04-01,AutoETS,"ETS(A,N,A)",0.31,,0.004,,,,,,,,1090.633
+Robbery,2023-04-01,AutoARIMA,"ARIMA(0,1,1)(1,0,0)[12]",,,,,0.0,1.0,1.0,1.0,0.0,0.0,899.174
+Theft from vehicle,2023-04-01,AutoETS,"ETS(A,N,A)",0.222,,0.001,,,,,,,,1374.281
+Theft from vehicle,2023-04-01,AutoARIMA,"ARIMA(0,1,2)(2,0,0)[12]",,,,,0.0,1.0,2.0,2.0,0.0,0.0,1188.787
+Vehicle theft,2023-04-01,AutoETS,"ETS(M,N,N)",0.793,,,,,,,,,,1271.997
+Vehicle theft,2023-04-01,AutoARIMA,"ARIMA(1,1,1)(1,0,0)[12]",,,,,1.0,1.0,1.0,1.0,0.0,0.0,1092.156
+Break and enter,2023-05-01,AutoETS,"ETS(M,Ad,A)",0.642,0.016,0.0,0.835,,,,,,,1325.047
+Break and enter,2023-05-01,AutoARIMA,"ARIMA(0,1,1)(0,1,1)[12]",,,,,0.0,1.0,1.0,0.0,1.0,1.0,1004.413
+Mischief,2023-05-01,AutoETS,"ETS(M,N,M)",0.178,,0.011,,,,,,,,1297.911
+Mischief,2023-05-01,AutoARIMA,"ARIMA(0,1,2)(0,1,1)[12]",,,,,0.0,1.0,2.0,0.0,1.0,1.0,975.613
+Robbery,2023-05-01,AutoETS,"ETS(M,N,A)",0.399,,0.0,,,,,,,,1104.501
+Robbery,2023-05-01,AutoARIMA,"ARIMA(0,1,1)(1,0,0)[12]",,,,,0.0,1.0,1.0,1.0,0.0,0.0,909.741
+Theft from vehicle,2023-05-01,AutoETS,"ETS(A,N,A)",0.267,,0.001,,,,,,,,1385.819
+Theft from vehicle,2023-05-01,AutoARIMA,"ARIMA(0,1,2)(2,0,0)[12]",,,,,0.0,1.0,2.0,2.0,0.0,0.0,1200.0
+Vehicle theft,2023-05-01,AutoETS,"ETS(M,N,N)",0.799,,,,,,,,,,1287.373
+Vehicle theft,2023-05-01,AutoARIMA,"ARIMA(1,1,1)(1,0,0)[12]",,,,,1.0,1.0,1.0,1.0,0.0,0.0,1104.758
+Break and enter,2023-06-01,AutoETS,"ETS(M,A,A)",0.555,0.002,0.0,,,,,,,,1346.692
+Break and enter,2023-06-01,AutoARIMA,"ARIMA(0,1,1)(0,1,1)[12]",,,,,0.0,1.0,1.0,0.0,1.0,1.0,1014.841
+Mischief,2023-06-01,AutoETS,"ETS(M,N,M)",0.182,,0.0,,,,,,,,1311.332
+Mischief,2023-06-01,AutoARIMA,"ARIMA(0,1,2)(0,1,1)[12]",,,,,0.0,1.0,2.0,0.0,1.0,1.0,986.892
+Robbery,2023-06-01,AutoETS,"ETS(A,N,N)",0.463,,,,,,,,,,1117.924
+Robbery,2023-06-01,AutoARIMA,"ARIMA(0,1,1)(1,0,0)[12]",,,,,0.0,1.0,1.0,1.0,0.0,0.0,917.757
+Theft from vehicle,2023-06-01,AutoETS,"ETS(A,N,A)",0.247,,0.004,,,,,,,,1401.13
+Theft from vehicle,2023-06-01,AutoARIMA,"ARIMA(0,1,2)(2,0,0)[12]",,,,,0.0,1.0,2.0,2.0,0.0,0.0,1212.992
+Vehicle theft,2023-06-01,AutoETS,"ETS(M,N,N)",0.797,,,,,,,,,,1301.909
+Vehicle theft,2023-06-01,AutoARIMA,"ARIMA(1,1,1)(1,0,0)[12]",,,,,1.0,1.0,1.0,1.0,0.0,0.0,1115.388
+Break and enter,2023-07-01,AutoETS,"ETS(A,A,A)",0.419,0.001,0.002,,,,,,,,1354.891
+Break and enter,2023-07-01,AutoARIMA,"ARIMA(0,1,1)(0,1,1)[12]",,,,,0.0,1.0,1.0,0.0,1.0,1.0,1025.066
+Mischief,2023-07-01,AutoETS,"ETS(A,N,A)",0.238,,0.001,,,,,,,,1324.151
+Mischief,2023-07-01,AutoARIMA,"ARIMA(0,1,2)(0,1,1)[12]",,,,,0.0,1.0,2.0,0.0,1.0,1.0,997.716
+Robbery,2023-07-01,AutoETS,"ETS(A,N,A)",0.334,,0.0,,,,,,,,1127.748
+Robbery,2023-07-01,AutoARIMA,"ARIMA(0,1,1)(1,0,0)[12]",,,,,0.0,1.0,1.0,1.0,0.0,0.0,925.838
+Theft from vehicle,2023-07-01,AutoETS,"ETS(A,N,A)",0.221,,0.0,,,,,,,,1416.819
+Theft from vehicle,2023-07-01,AutoARIMA,"ARIMA(0,1,2)(2,0,0)[12]",,,,,0.0,1.0,2.0,2.0,0.0,0.0,1224.036
+Vehicle theft,2023-07-01,AutoETS,"ETS(M,N,N)",0.797,,,,,,,,,,1316.67
+Vehicle theft,2023-07-01,AutoARIMA,"ARIMA(0,1,1)(1,0,0)[12]",,,,,0.0,1.0,1.0,1.0,0.0,0.0,1128.098
+Break and enter,2023-08-01,AutoETS,"ETS(A,A,A)",0.394,0.0,0.022,,,,,,,,1369.987
+Break and enter,2023-08-01,AutoARIMA,"ARIMA(0,1,1)(0,1,1)[12]",,,,,0.0,1.0,1.0,0.0,1.0,1.0,1035.28
+Mischief,2023-08-01,AutoETS,"ETS(A,N,A)",0.233,,0.0,,,,,,,,1338.634
+Mischief,2023-08-01,AutoARIMA,"ARIMA(0,1,2)(0,1,1)[12]",,,,,0.0,1.0,2.0,0.0,1.0,1.0,1008.241
+Robbery,2023-08-01,AutoETS,"ETS(A,N,N)",0.457,,,,,,,,,,1140.194
+Robbery,2023-08-01,AutoARIMA,"ARIMA(0,1,1)(1,0,0)[12]",,,,,0.0,1.0,1.0,1.0,0.0,0.0,933.964
+Theft from vehicle,2023-08-01,AutoETS,"ETS(A,N,A)",0.242,,0.0,,,,,,,,1429.274
+Theft from vehicle,2023-08-01,AutoARIMA,"ARIMA(0,1,2)(2,0,0)[12]",,,,,0.0,1.0,2.0,2.0,0.0,0.0,1235.053
+Vehicle theft,2023-08-01,AutoETS,"ETS(M,N,N)",0.801,,,,,,,,,,1331.64
+Vehicle theft,2023-08-01,AutoARIMA,"ARIMA(0,1,1)(1,0,0)[12]",,,,,0.0,1.0,1.0,1.0,0.0,0.0,1139.987
+Break and enter,2023-09-01,AutoETS,"ETS(M,Ad,A)",0.629,0.016,0.001,0.822,,,,,,,1378.384
+Break and enter,2023-09-01,AutoARIMA,"ARIMA(0,1,1)(0,1,1)[12]",,,,,0.0,1.0,1.0,0.0,1.0,1.0,1045.757
+Mischief,2023-09-01,AutoETS,"ETS(M,N,M)",0.176,,0.001,,,,,,,,1350.878
+Mischief,2023-09-01,AutoARIMA,"ARIMA(0,1,2)(0,1,1)[12]",,,,,0.0,1.0,2.0,0.0,1.0,1.0,1018.162
+Robbery,2023-09-01,AutoETS,"ETS(A,N,A)",0.321,,0.002,,,,,,,,1150.609
+Robbery,2023-09-01,AutoARIMA,"ARIMA(0,1,1)(2,0,0)[12]",,,,,0.0,1.0,1.0,2.0,0.0,0.0,942.463
+Theft from vehicle,2023-09-01,AutoETS,"ETS(A,N,A)",0.258,,0.001,,,,,,,,1443.566
+Theft from vehicle,2023-09-01,AutoARIMA,"ARIMA(2,1,1)(2,0,0)[12]",,,,,2.0,1.0,1.0,2.0,0.0,0.0,1250.913
+Vehicle theft,2023-09-01,AutoETS,"ETS(M,N,N)",0.79,,,,,,,,,,1350.004
+Vehicle theft,2023-09-01,AutoARIMA,"ARIMA(0,1,0)",,,,,0.0,1.0,0.0,0.0,0.0,0.0,1176.489
+Break and enter,2023-10-01,AutoETS,"ETS(M,Ad,A)",0.599,0.017,0.001,0.811,,,,,,,1391.234
+Break and enter,2023-10-01,AutoARIMA,"ARIMA(0,1,1)(0,1,1)[12]",,,,,0.0,1.0,1.0,0.0,1.0,1.0,1057.064
+Mischief,2023-10-01,AutoETS,"ETS(M,N,M)",0.194,,0.002,,,,,,,,1362.867
+Mischief,2023-10-01,AutoARIMA,"ARIMA(0,1,2)(0,1,1)[12]",,,,,0.0,1.0,2.0,0.0,1.0,1.0,1028.213
+Robbery,2023-10-01,AutoETS,"ETS(A,N,A)",0.331,,0.001,,,,,,,,1161.396
+Robbery,2023-10-01,AutoARIMA,"ARIMA(0,1,1)(2,0,0)[12]",,,,,0.0,1.0,1.0,2.0,0.0,0.0,950.762
+Theft from vehicle,2023-10-01,AutoETS,"ETS(A,N,A)",0.249,,0.001,,,,,,,,1460.612
+Theft from vehicle,2023-10-01,AutoARIMA,"ARIMA(1,1,1)(1,0,1)[12]",,,,,1.0,1.0,1.0,1.0,0.0,1.0,1259.959
+Vehicle theft,2023-10-01,AutoETS,"ETS(M,N,N)",0.799,,,,,,,,,,1364.391
+Vehicle theft,2023-10-01,AutoARIMA,"ARIMA(0,1,0)",,,,,0.0,1.0,0.0,0.0,0.0,0.0,1186.911
+Break and enter,2023-11-01,AutoETS,"ETS(M,Ad,A)",0.588,0.014,0.0,0.81,,,,,,,1406.939
+Break and enter,2023-11-01,AutoARIMA,"ARIMA(0,1,1)(0,1,1)[12]",,,,,0.0,1.0,1.0,0.0,1.0,1.0,1067.588
+Mischief,2023-11-01,AutoETS,"ETS(A,A,A)",0.03,0.011,0.0,,,,,,,,1385.692
+Mischief,2023-11-01,AutoARIMA,"ARIMA(0,1,2)(0,1,1)[12]",,,,,0.0,1.0,2.0,0.0,1.0,1.0,1048.551
+Robbery,2023-11-01,AutoETS,"ETS(A,N,A)",0.344,,0.001,,,,,,,,1171.033
+Robbery,2023-11-01,AutoARIMA,"ARIMA(0,1,1)(2,0,0)[12]",,,,,0.0,1.0,1.0,2.0,0.0,0.0,958.883
+Theft from vehicle,2023-11-01,AutoETS,"ETS(A,A,A)",0.307,0.0,0.006,,,,,,,,1474.819
+Theft from vehicle,2023-11-01,AutoARIMA,"ARIMA(1,1,1)(1,0,1)[12]",,,,,1.0,1.0,1.0,1.0,0.0,1.0,1270.851
+Vehicle theft,2023-11-01,AutoETS,"ETS(M,N,N)",0.803,,,,,,,,,,1379.002
+Vehicle theft,2023-11-01,AutoARIMA,"ARIMA(0,1,0)",,,,,0.0,1.0,0.0,0.0,0.0,0.0,1198.13
+Break and enter,2023-12-01,AutoETS,"ETS(M,Ad,A)",0.503,0.014,0.006,0.862,,,,,,,1426.548
+Break and enter,2023-12-01,AutoARIMA,"ARIMA(0,1,1)(0,1,1)[12]",,,,,0.0,1.0,1.0,0.0,1.0,1.0,1078.574
+Mischief,2023-12-01,AutoETS,"ETS(A,N,A)",0.44,,0.0,,,,,,,,1400.822
+Mischief,2023-12-01,AutoARIMA,"ARIMA(0,1,2)(0,1,1)[12]",,,,,0.0,1.0,2.0,0.0,1.0,1.0,1059.478
+Robbery,2023-12-01,AutoETS,"ETS(A,N,A)",0.332,,0.001,,,,,,,,1183.223
+Robbery,2023-12-01,AutoARIMA,"ARIMA(0,1,1)(2,0,0)[12]",,,,,0.0,1.0,1.0,2.0,0.0,0.0,967.351
+Theft from vehicle,2023-12-01,AutoETS,"ETS(A,A,A)",0.33,0.0,0.0,,,,,,,,1487.124
+Theft from vehicle,2023-12-01,AutoARIMA,"ARIMA(1,1,1)(1,0,1)[12]",,,,,1.0,1.0,1.0,1.0,0.0,1.0,1281.708
+Vehicle theft,2023-12-01,AutoETS,"ETS(M,N,N)",0.81,,,,,,,,,,1394.149
+Vehicle theft,2023-12-01,AutoARIMA,"ARIMA(0,1,0)",,,,,0.0,1.0,0.0,0.0,0.0,0.0,1210.555
+Break and enter,2024-01-01,AutoETS,"ETS(A,A,A)",0.488,0.0,0.026,,,,,,,,1435.463
+Break and enter,2024-01-01,AutoARIMA,"ARIMA(0,1,1)(0,1,1)[12]",,,,,0.0,1.0,1.0,0.0,1.0,1.0,1088.847
+Mischief,2024-01-01,AutoETS,"ETS(A,N,A)",0.289,,0.032,,,,,,,,1418.557
+Mischief,2024-01-01,AutoARIMA,"ARIMA(0,1,2)(0,1,1)[12]",,,,,0.0,1.0,2.0,0.0,1.0,1.0,1069.654
+Robbery,2024-01-01,AutoETS,"ETS(A,N,A)",0.311,,0.0,,,,,,,,1194.495
+Robbery,2024-01-01,AutoARIMA,"ARIMA(0,1,1)(2,0,0)[12]",,,,,0.0,1.0,1.0,2.0,0.0,0.0,975.556
+Theft from vehicle,2024-01-01,AutoETS,"ETS(A,N,A)",0.261,,0.001,,,,,,,,1501.165
+Theft from vehicle,2024-01-01,AutoARIMA,"ARIMA(0,1,2)(2,0,0)[12]",,,,,0.0,1.0,2.0,2.0,0.0,0.0,1291.048
+Vehicle theft,2024-01-01,AutoETS,"ETS(M,N,N)",0.816,,,,,,,,,,1408.288
+Vehicle theft,2024-01-01,AutoARIMA,"ARIMA(0,1,0)",,,,,0.0,1.0,0.0,0.0,0.0,0.0,1221.012
+Break and enter,2024-02-01,AutoETS,"ETS(M,Ad,A)",0.604,0.016,0.001,0.817,,,,,,,1447.824
+Break and enter,2024-02-01,AutoARIMA,"ARIMA(0,1,1)(0,1,1)[12]",,,,,0.0,1.0,1.0,0.0,1.0,1.0,1099.631
+Mischief,2024-02-01,AutoETS,"ETS(A,N,A)",0.335,,0.011,,,,,,,,1431.763
+Mischief,2024-02-01,AutoARIMA,"ARIMA(0,1,2)(0,1,1)[12]",,,,,0.0,1.0,2.0,0.0,1.0,1.0,1082.092
+Robbery,2024-02-01,AutoETS,"ETS(A,N,A)",0.33,,0.013,,,,,,,,1205.487
+Robbery,2024-02-01,AutoARIMA,"ARIMA(0,1,1)(2,0,0)[12]",,,,,0.0,1.0,1.0,2.0,0.0,0.0,983.977
+Theft from vehicle,2024-02-01,AutoETS,"ETS(A,N,A)",0.235,,0.001,,,,,,,,1515.899
+Theft from vehicle,2024-02-01,AutoARIMA,"ARIMA(0,1,2)(2,0,0)[12]",,,,,0.0,1.0,2.0,2.0,0.0,0.0,1301.83
+Vehicle theft,2024-02-01,AutoETS,"ETS(M,N,N)",0.823,,,,,,,,,,1422.98
+Vehicle theft,2024-02-01,AutoARIMA,"ARIMA(0,1,0)",,,,,0.0,1.0,0.0,0.0,0.0,0.0,1232.703
+Break and enter,2024-03-01,AutoETS,"ETS(M,Ad,A)",0.677,0.013,0.001,0.801,,,,,,,1456.058
+Break and enter,2024-03-01,AutoARIMA,"ARIMA(0,1,1)(0,1,1)[12]",,,,,0.0,1.0,1.0,0.0,1.0,1.0,1109.974
+Mischief,2024-03-01,AutoETS,"ETS(A,N,A)",0.404,,0.005,,,,,,,,1440.199
+Mischief,2024-03-01,AutoARIMA,"ARIMA(0,1,2)(0,1,1)[12]",,,,,0.0,1.0,2.0,0.0,1.0,1.0,1092.108
+Robbery,2024-03-01,AutoETS,"ETS(A,N,A)",0.351,,0.002,,,,,,,,1215.748
+Robbery,2024-03-01,AutoARIMA,"ARIMA(0,1,1)(2,0,0)[12]",,,,,0.0,1.0,1.0,2.0,0.0,0.0,991.917
+Theft from vehicle,2024-03-01,AutoETS,"ETS(A,N,A)",0.251,,0.008,,,,,,,,1528.891
+Theft from vehicle,2024-03-01,AutoARIMA,"ARIMA(0,1,2)(2,0,0)[12]",,,,,0.0,1.0,2.0,2.0,0.0,0.0,1312.691
+Vehicle theft,2024-03-01,AutoETS,"ETS(M,N,N)",0.821,,,,,,,,,,1436.77
+Vehicle theft,2024-03-01,AutoARIMA,"ARIMA(0,1,0)",,,,,0.0,1.0,0.0,0.0,0.0,0.0,1243.614
+Break and enter,2024-04-01,AutoETS,"ETS(M,Ad,A)",0.654,0.015,0.001,0.856,,,,,,,1470.401
+Break and enter,2024-04-01,AutoARIMA,"ARIMA(0,1,1)(0,1,1)[12]",,,,,0.0,1.0,1.0,0.0,1.0,1.0,1120.371
+Mischief,2024-04-01,AutoETS,"ETS(A,N,A)",0.416,,0.008,,,,,,,,1453.821
+Mischief,2024-04-01,AutoARIMA,"ARIMA(0,1,2)(0,1,1)[12]",,,,,0.0,1.0,2.0,0.0,1.0,1.0,1103.15
+Robbery,2024-04-01,AutoETS,"ETS(A,N,A)",0.315,,0.003,,,,,,,,1228.74
+Robbery,2024-04-01,AutoARIMA,"ARIMA(0,1,1)(2,0,0)[12]",,,,,0.0,1.0,1.0,2.0,0.0,0.0,999.824
+Theft from vehicle,2024-04-01,AutoETS,"ETS(A,N,A)",0.274,,0.004,,,,,,,,1539.777
+Theft from vehicle,2024-04-01,AutoARIMA,"ARIMA(0,1,2)(2,0,0)[12]",,,,,0.0,1.0,2.0,2.0,0.0,0.0,1323.668
+Vehicle theft,2024-04-01,AutoETS,"ETS(M,N,N)",0.818,,,,,,,,,,1451.626
+Vehicle theft,2024-04-01,AutoARIMA,"ARIMA(0,1,0)",,,,,0.0,1.0,0.0,0.0,0.0,0.0,1256.165
+Break and enter,2024-05-01,AutoETS,"ETS(M,N,A)",0.516,,0.031,,,,,,,,1484.888
+Break and enter,2024-05-01,AutoARIMA,"ARIMA(0,1,1)(0,1,1)[12]",,,,,0.0,1.0,1.0,0.0,1.0,1.0,1130.776
+Mischief,2024-05-01,AutoETS,"ETS(A,N,A)",0.387,,0.001,,,,,,,,1465.566
+Mischief,2024-05-01,AutoARIMA,"ARIMA(0,1,2)(0,1,1)[12]",,,,,0.0,1.0,2.0,0.0,1.0,1.0,1113.195
+Robbery,2024-05-01,AutoETS,"ETS(A,N,A)",0.317,,0.004,,,,,,,,1238.828
+Robbery,2024-05-01,AutoARIMA,"ARIMA(0,1,1)(2,0,0)[12]",,,,,0.0,1.0,1.0,2.0,0.0,0.0,1008.733
+Theft from vehicle,2024-05-01,AutoETS,"ETS(A,N,A)",0.24,,0.001,,,,,,,,1561.144
+Theft from vehicle,2024-05-01,AutoARIMA,"ARIMA(0,1,2)(2,0,0)[12]",,,,,0.0,1.0,2.0,2.0,0.0,0.0,1336.903
+Vehicle theft,2024-05-01,AutoETS,"ETS(M,N,N)",0.801,,,,,,,,,,1467.771
+Vehicle theft,2024-05-01,AutoARIMA,"ARIMA(0,1,0)",,,,,0.0,1.0,0.0,0.0,0.0,0.0,1271.041
+Break and enter,2024-06-01,AutoETS,"ETS(M,Ad,A)",0.588,0.005,0.017,0.868,,,,,,,1498.353
+Break and enter,2024-06-01,AutoARIMA,"ARIMA(0,1,1)(0,1,1)[12]",,,,,0.0,1.0,1.0,0.0,1.0,1.0,1140.961
+Mischief,2024-06-01,AutoETS,"ETS(A,N,A)",0.368,,0.01,,,,,,,,1480.705
+Mischief,2024-06-01,AutoARIMA,"ARIMA(0,1,2)(0,1,1)[12]",,,,,0.0,1.0,2.0,0.0,1.0,1.0,1123.205
+Robbery,2024-06-01,AutoETS,"ETS(A,N,A)",0.321,,0.0,,,,,,,,1248.885
+Robbery,2024-06-01,AutoARIMA,"ARIMA(0,1,1)(2,0,0)[12]",,,,,0.0,1.0,1.0,2.0,0.0,0.0,1016.697
+Theft from vehicle,2024-06-01,AutoETS,"ETS(A,N,A)",0.295,,0.0,,,,,,,,1571.799
+Theft from vehicle,2024-06-01,AutoARIMA,"ARIMA(0,1,2)(2,0,0)[12]",,,,,0.0,1.0,2.0,2.0,0.0,0.0,1347.748
+Vehicle theft,2024-06-01,AutoETS,"ETS(M,N,N)",0.806,,,,,,,,,,1481.974
+Vehicle theft,2024-06-01,AutoARIMA,"ARIMA(0,1,0)",,,,,0.0,1.0,0.0,0.0,0.0,0.0,1281.606
+Break and enter,2024-07-01,AutoETS,"ETS(M,Ad,A)",0.562,0.008,0.053,0.802,,,,,,,1518.79
+Break and enter,2024-07-01,AutoARIMA,"ARIMA(0,1,1)(0,1,1)[12]",,,,,0.0,1.0,1.0,0.0,1.0,1.0,1151.147
+Mischief,2024-07-01,AutoETS,"ETS(A,N,A)",0.457,,0.0,,,,,,,,1492.306
+Mischief,2024-07-01,AutoARIMA,"ARIMA(0,1,2)(0,1,1)[12]",,,,,0.0,1.0,2.0,0.0,1.0,1.0,1134.36
+Robbery,2024-07-01,AutoETS,"ETS(A,N,A)",0.321,,0.0,,,,,,,,1260.901
+Robbery,2024-07-01,AutoARIMA,"ARIMA(0,1,1)(2,0,0)[12]",,,,,0.0,1.0,1.0,2.0,0.0,0.0,1024.902
+Theft from vehicle,2024-07-01,AutoETS,"ETS(A,N,A)",0.261,,0.002,,,,,,,,1586.622
+Theft from vehicle,2024-07-01,AutoARIMA,"ARIMA(0,1,2)(2,0,0)[12]",,,,,0.0,1.0,2.0,2.0,0.0,0.0,1359.425
+Vehicle theft,2024-07-01,AutoETS,"ETS(M,N,N)",0.807,,,,,,,,,,1496.121
+Vehicle theft,2024-07-01,AutoARIMA,"ARIMA(0,1,0)",,,,,0.0,1.0,0.0,0.0,0.0,0.0,1292.18
+Break and enter,2024-08-01,AutoETS,"ETS(M,Ad,A)",0.55,0.014,0.005,0.8,,,,,,,1522.524
+Break and enter,2024-08-01,AutoARIMA,"ARIMA(0,1,1)(0,1,1)[12]",,,,,0.0,1.0,1.0,0.0,1.0,1.0,1162.691
+Mischief,2024-08-01,AutoETS,"ETS(A,N,A)",0.316,,0.002,,,,,,,,1507.559
+Mischief,2024-08-01,AutoARIMA,"ARIMA(0,1,2)(0,1,1)[12]",,,,,0.0,1.0,2.0,0.0,1.0,1.0,1144.53
+Robbery,2024-08-01,AutoETS,"ETS(A,N,A)",0.346,,0.0,,,,,,,,1270.657
+Robbery,2024-08-01,AutoARIMA,"ARIMA(0,1,1)(2,0,0)[12]",,,,,0.0,1.0,1.0,2.0,0.0,0.0,1032.962
+Theft from vehicle,2024-08-01,AutoETS,"ETS(A,N,A)",0.266,,0.002,,,,,,,,1599.367
+Theft from vehicle,2024-08-01,AutoARIMA,"ARIMA(0,1,2)(2,0,0)[12]",,,,,0.0,1.0,2.0,2.0,0.0,0.0,1370.238
+Vehicle theft,2024-08-01,AutoETS,"ETS(M,N,N)",0.809,,,,,,,,,,1510.223
+Vehicle theft,2024-08-01,AutoARIMA,"ARIMA(0,1,0)",,,,,0.0,1.0,0.0,0.0,0.0,0.0,1302.576
+Break and enter,2024-09-01,AutoETS,"ETS(M,Ad,A)",0.53,0.012,0.003,0.8,,,,,,,1538.325
+Break and enter,2024-09-01,AutoARIMA,"ARIMA(0,1,1)(0,1,1)[12]",,,,,0.0,1.0,1.0,0.0,1.0,1.0,1172.884
+Mischief,2024-09-01,AutoETS,"ETS(A,N,A)",0.439,,0.017,,,,,,,,1519.819
+Mischief,2024-09-01,AutoARIMA,"ARIMA(0,1,2)(0,1,1)[12]",,,,,0.0,1.0,2.0,0.0,1.0,1.0,1154.563
+Robbery,2024-09-01,AutoETS,"ETS(A,N,A)",0.314,,0.0,,,,,,,,1282.157
+Robbery,2024-09-01,AutoARIMA,"ARIMA(0,1,1)(2,0,0)[12]",,,,,0.0,1.0,1.0,2.0,0.0,0.0,1041.139
+Theft from vehicle,2024-09-01,AutoETS,"ETS(A,N,A)",0.275,,0.001,,,,,,,,1612.941
+Theft from vehicle,2024-09-01,AutoARIMA,"ARIMA(0,1,2)(2,0,0)[12]",,,,,0.0,1.0,2.0,2.0,0.0,0.0,1381.192
+Vehicle theft,2024-09-01,AutoETS,"ETS(M,N,N)",0.808,,,,,,,,,,1525.051
+Vehicle theft,2024-09-01,AutoARIMA,"ARIMA(0,1,1)(1,0,1)[12]",,,,,0.0,1.0,1.0,1.0,0.0,1.0,1310.274
+Break and enter,2024-10-01,AutoETS,"ETS(M,Ad,A)",0.608,0.008,0.0,0.821,,,,,,,1551.304
+Break and enter,2024-10-01,AutoARIMA,"ARIMA(0,1,1)(0,1,1)[12]",,,,,0.0,1.0,1.0,0.0,1.0,1.0,1183.713
+Mischief,2024-10-01,AutoETS,"ETS(A,N,A)",0.32,,0.001,,,,,,,,1536.736
+Mischief,2024-10-01,AutoARIMA,"ARIMA(0,1,2)(0,1,1)[12]",,,,,0.0,1.0,2.0,0.0,1.0,1.0,1166.053
+Robbery,2024-10-01,AutoETS,"ETS(A,N,A)",0.358,,0.0,,,,,,,,1293.731
+Robbery,2024-10-01,AutoARIMA,"ARIMA(0,1,1)(1,0,0)[12]",,,,,0.0,1.0,1.0,1.0,0.0,0.0,1050.13
+Theft from vehicle,2024-10-01,AutoETS,"ETS(A,N,A)",0.275,,0.0,,,,,,,,1626.665
+Theft from vehicle,2024-10-01,AutoARIMA,"ARIMA(0,1,2)(2,0,0)[12]",,,,,0.0,1.0,2.0,2.0,0.0,0.0,1392.023
+Vehicle theft,2024-10-01,AutoETS,"ETS(M,N,N)",0.805,,,,,,,,,,1539.051
+Vehicle theft,2024-10-01,AutoARIMA,"ARIMA(0,1,1)(1,0,1)[12]",,,,,0.0,1.0,1.0,1.0,0.0,1.0,1320.877
+Break and enter,2024-11-01,AutoETS,"ETS(A,N,A)",0.326,,0.007,,,,,,,,1572.107
+Break and enter,2024-11-01,AutoARIMA,"ARIMA(0,1,1)(0,1,1)[12]",,,,,0.0,1.0,1.0,0.0,1.0,1.0,1197.689
+Mischief,2024-11-01,AutoETS,"ETS(A,N,A)",0.448,,0.0,,,,,,,,1545.535
+Mischief,2024-11-01,AutoARIMA,"ARIMA(0,1,2)(0,1,1)[12]",,,,,0.0,1.0,2.0,0.0,1.0,1.0,1176.749
+Robbery,2024-11-01,AutoETS,"ETS(A,N,A)",0.357,,0.003,,,,,,,,1308.447
+Robbery,2024-11-01,AutoARIMA,"ARIMA(0,1,1)(2,0,0)[12]",,,,,0.0,1.0,1.0,2.0,0.0,0.0,1059.976
+Theft from vehicle,2024-11-01,AutoETS,"ETS(A,N,A)",0.292,,0.001,,,,,,,,1640.047
+Theft from vehicle,2024-11-01,AutoARIMA,"ARIMA(0,1,2)(2,0,0)[12]",,,,,0.0,1.0,2.0,2.0,0.0,0.0,1402.874
+Vehicle theft,2024-11-01,AutoETS,"ETS(M,N,N)",0.804,,,,,,,,,,1553.273
+Vehicle theft,2024-11-01,AutoARIMA,"ARIMA(0,1,1)(1,0,1)[12]",,,,,0.0,1.0,1.0,1.0,0.0,1.0,1331.081
+Break and enter,2024-12-01,AutoETS,"ETS(A,N,A)",0.379,,0.006,,,,,,,,1585.021
+Break and enter,2024-12-01,AutoARIMA,"ARIMA(0,1,4)(0,1,1)[12]",,,,,0.0,1.0,4.0,0.0,1.0,1.0,1206.741
+Mischief,2024-12-01,AutoETS,"ETS(A,N,A)",0.396,,0.042,,,,,,,,1563.224
+Mischief,2024-12-01,AutoARIMA,"ARIMA(0,1,2)(0,1,1)[12]",,,,,0.0,1.0,2.0,0.0,1.0,1.0,1188.215
+Robbery,2024-12-01,AutoETS,"ETS(A,N,A)",0.376,,0.0,,,,,,,,1318.387
+Robbery,2024-12-01,AutoARIMA,"ARIMA(0,1,1)(2,0,0)[12]",,,,,0.0,1.0,1.0,2.0,0.0,0.0,1068.004
+Theft from vehicle,2024-12-01,AutoETS,"ETS(A,N,A)",0.273,,0.001,,,,,,,,1658.112
+Theft from vehicle,2024-12-01,AutoARIMA,"ARIMA(0,1,2)(2,0,0)[12]",,,,,0.0,1.0,2.0,2.0,0.0,0.0,1416.72
+Vehicle theft,2024-12-01,AutoETS,"ETS(M,N,N)",0.809,,,,,,,,,,1568.845
+Vehicle theft,2024-12-01,AutoARIMA,"ARIMA(2,1,1)(1,0,0)[12]",,,,,2.0,1.0,1.0,1.0,0.0,0.0,1342.505
+Break and enter,2025-01-01,AutoETS,"ETS(M,A,A)",0.349,0.0,0.0,,,,,,,,1601.218
+Break and enter,2025-01-01,AutoARIMA,"ARIMA(0,1,4)(0,1,1)[12]",,,,,0.0,1.0,4.0,0.0,1.0,1.0,1216.847
+Mischief,2025-01-01,AutoETS,"ETS(A,N,A)",0.372,,0.0,,,,,,,,1573.68
+Mischief,2025-01-01,AutoARIMA,"ARIMA(0,1,2)(0,1,1)[12]",,,,,0.0,1.0,2.0,0.0,1.0,1.0,1198.314
+Robbery,2025-01-01,AutoETS,"ETS(A,N,A)",0.336,,0.003,,,,,,,,1330.766
+Robbery,2025-01-01,AutoARIMA,"ARIMA(0,1,1)(2,0,0)[12]",,,,,0.0,1.0,1.0,2.0,0.0,0.0,1075.923
+Theft from vehicle,2025-01-01,AutoETS,"ETS(A,N,A)",0.265,,0.0,,,,,,,,1671.795
+Theft from vehicle,2025-01-01,AutoARIMA,"ARIMA(0,1,2)(2,0,0)[12]",,,,,0.0,1.0,2.0,2.0,0.0,0.0,1427.487
+Vehicle theft,2025-01-01,AutoETS,"ETS(M,N,N)",0.816,,,,,,,,,,1582.806
+Vehicle theft,2025-01-01,AutoARIMA,"ARIMA(2,1,1)(1,0,0)[12]",,,,,2.0,1.0,1.0,1.0,0.0,0.0,1353.477
+Break and enter,2025-02-01,AutoETS,"ETS(M,Ad,A)",0.591,0.007,0.006,0.809,,,,,,,1603.28
+Break and enter,2025-02-01,AutoARIMA,"ARIMA(0,1,4)(0,1,1)[12]",,,,,0.0,1.0,4.0,0.0,1.0,1.0,1226.871
+Mischief,2025-02-01,AutoETS,"ETS(A,N,A)",0.314,,0.004,,,,,,,,1589.485
+Mischief,2025-02-01,AutoARIMA,"ARIMA(0,1,2)(0,1,1)[12]",,,,,0.0,1.0,2.0,0.0,1.0,1.0,1208.392
+Robbery,2025-02-01,AutoETS,"ETS(A,N,A)",0.363,,0.008,,,,,,,,1340.528
+Robbery,2025-02-01,AutoARIMA,"ARIMA(0,1,1)(2,0,0)[12]",,,,,0.0,1.0,1.0,2.0,0.0,0.0,1083.892
+Theft from vehicle,2025-02-01,AutoETS,"ETS(A,N,A)",0.269,,0.0,,,,,,,,1686.935
+Theft from vehicle,2025-02-01,AutoARIMA,"ARIMA(0,1,2)(2,0,0)[12]",,,,,0.0,1.0,2.0,2.0,0.0,0.0,1441.886
+Vehicle theft,2025-02-01,AutoETS,"ETS(M,N,N)",0.827,,,,,,,,,,1598.54
+Vehicle theft,2025-02-01,AutoARIMA,"ARIMA(0,1,1)(1,0,1)[12]",,,,,0.0,1.0,1.0,1.0,0.0,1.0,1366.106
+Break and enter,2025-03-01,AutoETS,"ETS(M,Ad,A)",0.59,0.004,0.001,0.839,,,,,,,1617.495
+Break and enter,2025-03-01,AutoARIMA,"ARIMA(0,1,1)(0,1,1)[12]",,,,,0.0,1.0,1.0,0.0,1.0,1.0,1238.908
+Mischief,2025-03-01,AutoETS,"ETS(A,N,A)",0.286,,0.003,,,,,,,,1603.501
+Mischief,2025-03-01,AutoARIMA,"ARIMA(0,1,2)(0,1,1)[12]",,,,,0.0,1.0,2.0,0.0,1.0,1.0,1218.375
+Robbery,2025-03-01,AutoETS,"ETS(A,N,A)",0.365,,0.0,,,,,,,,1353.291
+Robbery,2025-03-01,AutoARIMA,"ARIMA(0,1,1)(2,0,0)[12]",,,,,0.0,1.0,1.0,2.0,0.0,0.0,1093.295
+Theft from vehicle,2025-03-01,AutoETS,"ETS(A,N,A)",0.271,,0.001,,,,,,,,1700.604
+Theft from vehicle,2025-03-01,AutoARIMA,"ARIMA(0,1,2)(2,0,0)[12]",,,,,0.0,1.0,2.0,2.0,0.0,0.0,1452.804
+Vehicle theft,2025-03-01,AutoETS,"ETS(M,N,N)",0.817,,,,,,,,,,1612.264
+Vehicle theft,2025-03-01,AutoARIMA,"ARIMA(2,1,2)(1,0,1)[12]",,,,,2.0,1.0,2.0,1.0,0.0,1.0,1375.574
+Break and enter,2025-04-01,AutoETS,"ETS(M,Ad,A)",0.49,0.001,0.014,0.811,,,,,,,1636.339
+Break and enter,2025-04-01,AutoARIMA,"ARIMA(0,1,1)(0,1,1)[12]",,,,,0.0,1.0,1.0,0.0,1.0,1.0,1251.104
+Mischief,2025-04-01,AutoETS,"ETS(A,N,A)",0.366,,0.003,,,,,,,,1613.892
+Mischief,2025-04-01,AutoARIMA,"ARIMA(0,1,2)(0,1,1)[12]",,,,,0.0,1.0,2.0,0.0,1.0,1.0,1229.568
+Robbery,2025-04-01,AutoETS,"ETS(A,N,A)",0.377,,0.005,,,,,,,,1372.065
+Robbery,2025-04-01,AutoARIMA,"ARIMA(0,1,1)(2,0,0)[12]",,,,,0.0,1.0,1.0,2.0,0.0,0.0,1105.879
+Theft from vehicle,2025-04-01,AutoETS,"ETS(A,N,A)",0.293,,0.0,,,,,,,,1715.02
+Theft from vehicle,2025-04-01,AutoARIMA,"ARIMA(0,1,2)(2,0,0)[12]",,,,,0.0,1.0,2.0,2.0,0.0,0.0,1463.959
+Vehicle theft,2025-04-01,AutoETS,"ETS(M,N,N)",0.817,,,,,,,,,,1625.682
+Vehicle theft,2025-04-01,AutoARIMA,"ARIMA(2,1,2)(1,0,1)[12]",,,,,2.0,1.0,2.0,1.0,0.0,1.0,1385.943
+Break and enter,2025-05-01,AutoETS,"ETS(M,Ad,A)",0.633,0.002,0.001,0.801,,,,,,,1642.203
+Break and enter,2025-05-01,AutoARIMA,"ARIMA(0,1,1)(0,1,1)[12]",,,,,0.0,1.0,1.0,0.0,1.0,1.0,1261.219
+Mischief,2025-05-01,AutoETS,"ETS(A,N,A)",0.375,,0.0,,,,,,,,1627.942
+Mischief,2025-05-01,AutoARIMA,"ARIMA(0,1,2)(0,1,1)[12]",,,,,0.0,1.0,2.0,0.0,1.0,1.0,1241.854
+Robbery,2025-05-01,AutoETS,"ETS(A,N,A)",0.399,,0.006,,,,,,,,1383.863
+Robbery,2025-05-01,AutoARIMA,"ARIMA(0,1,1)(2,0,0)[12]",,,,,0.0,1.0,1.0,2.0,0.0,0.0,1114.133
+Theft from vehicle,2025-05-01,AutoETS,"ETS(A,N,A)",0.29,,0.001,,,,,,,,1729.992
+Theft from vehicle,2025-05-01,AutoARIMA,"ARIMA(0,1,2)(2,0,0)[12]",,,,,0.0,1.0,2.0,2.0,0.0,0.0,1474.826
+Vehicle theft,2025-05-01,AutoETS,"ETS(M,N,N)",0.816,,,,,,,,,,1639.043
+Vehicle theft,2025-05-01,AutoARIMA,"ARIMA(0,1,1)(1,0,1)[12]",,,,,0.0,1.0,1.0,1.0,0.0,1.0,1397.818
+Break and enter,2025-06-01,AutoETS,"ETS(M,Ad,A)",0.594,0.009,0.003,0.815,,,,,,,1658.196
+Break and enter,2025-06-01,AutoARIMA,"ARIMA(0,1,1)(0,1,1)[12]",,,,,0.0,1.0,1.0,0.0,1.0,1.0,1271.534
+Mischief,2025-06-01,AutoETS,"ETS(A,N,A)",0.364,,0.015,,,,,,,,1641.959
+Mischief,2025-06-01,AutoARIMA,"ARIMA(0,1,2)(0,1,1)[12]",,,,,0.0,1.0,2.0,0.0,1.0,1.0,1251.922
+Robbery,2025-06-01,AutoETS,"ETS(A,N,A)",0.401,,0.0,,,,,,,,1395.575
+Robbery,2025-06-01,AutoARIMA,"ARIMA(0,1,1)(2,0,0)[12]",,,,,0.0,1.0,1.0,2.0,0.0,0.0,1122.526
+Theft from vehicle,2025-06-01,AutoETS,"ETS(A,N,A)",0.324,,0.013,,,,,,,,1742.45
+Theft from vehicle,2025-06-01,AutoARIMA,"ARIMA(0,1,2)(2,0,0)[12]",,,,,0.0,1.0,2.0,2.0,0.0,0.0,1485.869
+Vehicle theft,2025-06-01,AutoETS,"ETS(M,N,N)",0.818,,,,,,,,,,1652.704
+Vehicle theft,2025-06-01,AutoARIMA,"ARIMA(2,1,2)(1,0,0)[12]",,,,,2.0,1.0,2.0,1.0,0.0,0.0,1406.27
+Break and enter,2025-07-01,AutoETS,"ETS(M,Ad,A)",0.601,0.008,0.001,0.817,,,,,,,1667.981
+Break and enter,2025-07-01,AutoARIMA,"ARIMA(0,1,1)(0,1,1)[12]",,,,,0.0,1.0,1.0,0.0,1.0,1.0,1281.983
+Mischief,2025-07-01,AutoETS,"ETS(A,N,A)",0.339,,0.0,,,,,,,,1655.206
+Mischief,2025-07-01,AutoARIMA,"ARIMA(0,1,2)(0,1,1)[12]",,,,,0.0,1.0,2.0,0.0,1.0,1.0,1263.499
+Robbery,2025-07-01,AutoETS,"ETS(A,N,N)",0.45,,,,,,,,,,1408.367
+Robbery,2025-07-01,AutoARIMA,"ARIMA(0,1,1)(2,0,0)[12]",,,,,0.0,1.0,1.0,2.0,0.0,0.0,1130.671
+Theft from vehicle,2025-07-01,AutoETS,"ETS(A,N,A)",0.287,,0.0,,,,,,,,1757.462
+Theft from vehicle,2025-07-01,AutoARIMA,"ARIMA(0,1,2)(2,0,0)[12]",,,,,0.0,1.0,2.0,2.0,0.0,0.0,1497.227
+Vehicle theft,2025-07-01,AutoETS,"ETS(M,N,N)",0.816,,,,,,,,,,1666.181
+Vehicle theft,2025-07-01,AutoARIMA,"ARIMA(2,1,2)(1,0,0)[12]",,,,,2.0,1.0,2.0,1.0,0.0,0.0,1416.584
+Break and enter,2025-08-01,AutoETS,"ETS(M,Ad,A)",0.62,0.014,0.004,0.803,,,,,,,1684.741
+Break and enter,2025-08-01,AutoARIMA,"ARIMA(0,1,1)(0,1,1)[12]",,,,,0.0,1.0,1.0,0.0,1.0,1.0,1294.053
+Mischief,2025-08-01,AutoETS,"ETS(A,N,A)",0.488,,0.0,,,,,,,,1665.85
+Mischief,2025-08-01,AutoARIMA,"ARIMA(0,1,2)(0,1,1)[12]",,,,,0.0,1.0,2.0,0.0,1.0,1.0,1274.372
+Robbery,2025-08-01,AutoETS,"ETS(A,N,A)",0.403,,0.009,,,,,,,,1418.643
+Robbery,2025-08-01,AutoARIMA,"ARIMA(0,1,1)(2,0,0)[12]",,,,,0.0,1.0,1.0,2.0,0.0,0.0,1138.552
+Theft from vehicle,2025-08-01,AutoETS,"ETS(A,N,A)",0.269,,0.0,,,,,,,,1772.927
+Theft from vehicle,2025-08-01,AutoARIMA,"ARIMA(0,1,2)(2,0,0)[12]",,,,,0.0,1.0,2.0,2.0,0.0,0.0,1507.99
+Vehicle theft,2025-08-01,AutoETS,"ETS(M,N,N)",0.817,,,,,,,,,,1681.456
+Vehicle theft,2025-08-01,AutoARIMA,"ARIMA(2,1,2)(1,0,0)[12]",,,,,2.0,1.0,2.0,1.0,0.0,0.0,1428.277
+Break and enter,2025-09-01,AutoETS,"ETS(M,N,A)",0.521,,0.003,,,,,,,,1695.06
+Break and enter,2025-09-01,AutoARIMA,"ARIMA(0,1,1)(0,1,1)[12]",,,,,0.0,1.0,1.0,0.0,1.0,1.0,1304.295
+Mischief,2025-09-01,AutoETS,"ETS(A,N,A)",0.418,,0.006,,,,,,,,1680.794
+Mischief,2025-09-01,AutoARIMA,"ARIMA(0,1,2)(0,1,1)[12]",,,,,0.0,1.0,2.0,0.0,1.0,1.0,1284.38
+Robbery,2025-09-01,AutoETS,"ETS(A,N,A)",0.417,,0.007,,,,,,,,1428.842
+Robbery,2025-09-01,AutoARIMA,"ARIMA(0,1,1)(2,0,0)[12]",,,,,0.0,1.0,1.0,2.0,0.0,0.0,1146.425
+Theft from vehicle,2025-09-01,AutoETS,"ETS(A,N,A)",0.3,,0.0,,,,,,,,1785.833
+Theft from vehicle,2025-09-01,AutoARIMA,"ARIMA(0,1,2)(2,0,0)[12]",,,,,0.0,1.0,2.0,2.0,0.0,0.0,1518.843
+Vehicle theft,2025-09-01,AutoETS,"ETS(M,N,N)",0.806,,,,,,,,,,1697.325
+Vehicle theft,2025-09-01,AutoARIMA,"ARIMA(2,1,2)(1,0,0)[12]",,,,,2.0,1.0,2.0,1.0,0.0,0.0,1440.397
+Break and enter,2025-10-01,AutoETS,"ETS(M,Ad,A)",0.634,0.004,0.007,0.8,,,,,,,1709.324
+Break and enter,2025-10-01,AutoARIMA,"ARIMA(0,1,1)(0,1,1)[12]",,,,,0.0,1.0,1.0,0.0,1.0,1.0,1314.407
+Mischief,2025-10-01,AutoETS,"ETS(A,N,A)",0.455,,0.004,,,,,,,,1693.708
+Mischief,2025-10-01,AutoARIMA,"ARIMA(0,1,2)(0,1,1)[12]",,,,,0.0,1.0,2.0,0.0,1.0,1.0,1296.522
+Robbery,2025-10-01,AutoETS,"ETS(A,N,A)",0.42,,0.002,,,,,,,,1439.724
+Robbery,2025-10-01,AutoARIMA,"ARIMA(0,1,1)(2,0,0)[12]",,,,,0.0,1.0,1.0,2.0,0.0,0.0,1154.291
+Theft from vehicle,2025-10-01,AutoETS,"ETS(A,N,A)",0.348,,0.005,,,,,,,,1798.046
+Theft from vehicle,2025-10-01,AutoARIMA,"ARIMA(0,1,2)(2,0,0)[12]",,,,,0.0,1.0,2.0,2.0,0.0,0.0,1530.285
+Vehicle theft,2025-10-01,AutoETS,"ETS(M,N,N)",0.817,,,,,,,,,,1711.782
+Vehicle theft,2025-10-01,AutoARIMA,"ARIMA(2,1,2)(1,0,0)[12]",,,,,2.0,1.0,2.0,1.0,0.0,0.0,1451.434
+Break and enter,2025-11-01,AutoETS,"ETS(M,Ad,A)",0.59,0.001,0.002,0.801,,,,,,,1725.581
+Break and enter,2025-11-01,AutoARIMA,"ARIMA(0,1,1)(0,1,1)[12]",,,,,0.0,1.0,1.0,0.0,1.0,1.0,1325.171
+Mischief,2025-11-01,AutoETS,"ETS(A,N,A)",0.412,,0.023,,,,,,,,1710.894
+Mischief,2025-11-01,AutoARIMA,"ARIMA(0,1,2)(0,1,1)[12]",,,,,0.0,1.0,2.0,0.0,1.0,1.0,1306.586
+Robbery,2025-11-01,AutoETS,"ETS(A,N,N)",0.448,,,,,,,,,,1453.765
+Robbery,2025-11-01,AutoARIMA,"ARIMA(0,1,1)(2,0,0)[12]",,,,,0.0,1.0,1.0,2.0,0.0,0.0,1162.594
+Theft from vehicle,2025-11-01,AutoETS,"ETS(A,N,A)",0.242,,0.001,,,,,,,,1814.494
+Theft from vehicle,2025-11-01,AutoARIMA,"ARIMA(0,1,2)(2,0,0)[12]",,,,,0.0,1.0,2.0,2.0,0.0,0.0,1541.02
+Vehicle theft,2025-11-01,AutoETS,"ETS(M,N,N)",0.824,,,,,,,,,,1725.74
+Vehicle theft,2025-11-01,AutoARIMA,"ARIMA(2,1,2)(1,0,0)[12]",,,,,2.0,1.0,2.0,1.0,0.0,0.0,1462.317
+Break and enter,2025-12-01,AutoETS,"ETS(M,Ad,A)",0.65,0.005,0.0,0.8,,,,,,,1736.545
+Break and enter,2025-12-01,AutoARIMA,"ARIMA(0,1,1)(0,1,1)[12]",,,,,0.0,1.0,1.0,0.0,1.0,1.0,1335.485
+Mischief,2025-12-01,AutoETS,"ETS(A,N,A)",0.452,,0.008,,,,,,,,1720.768
+Mischief,2025-12-01,AutoARIMA,"ARIMA(0,1,2)(0,1,1)[12]",,,,,0.0,1.0,2.0,0.0,1.0,1.0,1317.075
+Robbery,2025-12-01,AutoETS,"ETS(A,N,A)",0.417,,0.003,,,,,,,,1462.928
+Robbery,2025-12-01,AutoARIMA,"ARIMA(0,1,1)(2,0,0)[12]",,,,,0.0,1.0,1.0,2.0,0.0,0.0,1171.648
+Theft from vehicle,2025-12-01,AutoETS,"ETS(A,N,A)",0.276,,0.0,,,,,,,,1826.981
+Theft from vehicle,2025-12-01,AutoARIMA,"ARIMA(0,1,2)(2,0,0)[12]",,,,,0.0,1.0,2.0,2.0,0.0,0.0,1551.749
+Vehicle theft,2025-12-01,AutoETS,"ETS(M,N,N)",0.823,,,,,,,,,,1738.813
+Vehicle theft,2025-12-01,AutoARIMA,"ARIMA(2,1,1)(1,0,1)[12]",,,,,2.0,1.0,1.0,1.0,0.0,1.0,1473.4
+Break and enter,2026-01-01,AutoETS,"ETS(M,Ad,A)",0.664,0.004,0.005,0.8,,,,,,,1752.785
+Break and enter,2026-01-01,AutoARIMA,"ARIMA(0,1,4)(0,1,1)[12]",,,,,0.0,1.0,4.0,0.0,1.0,1.0,1345.676
+Mischief,2026-01-01,AutoETS,"ETS(A,N,A)",0.487,,0.009,,,,,,,,1732.604
+Mischief,2026-01-01,AutoARIMA,"ARIMA(0,1,2)(0,1,1)[12]",,,,,0.0,1.0,2.0,0.0,1.0,1.0,1327.15
+Robbery,2026-01-01,AutoETS,"ETS(A,N,A)",0.452,,0.002,,,,,,,,1473.106
+Robbery,2026-01-01,AutoARIMA,"ARIMA(0,1,1)(2,0,0)[12]",,,,,0.0,1.0,1.0,2.0,0.0,0.0,1179.565
+Theft from vehicle,2026-01-01,AutoETS,"ETS(A,N,A)",0.286,,0.0,,,,,,,,1839.916
+Theft from vehicle,2026-01-01,AutoARIMA,"ARIMA(2,1,1)(2,0,0)[12]",,,,,2.0,1.0,1.0,2.0,0.0,0.0,1566.227
+Vehicle theft,2026-01-01,AutoETS,"ETS(M,N,N)",0.824,,,,,,,,,,1756.101
+Vehicle theft,2026-01-01,AutoARIMA,"ARIMA(2,1,2)(1,0,0)[12]",,,,,2.0,1.0,2.0,1.0,0.0,0.0,1485.194
+Break and enter,2026-02-01,AutoETS,"ETS(M,Ad,A)",0.554,0.011,0.037,0.8,,,,,,,1775.654
+Break and enter,2026-02-01,AutoARIMA,"ARIMA(0,1,4)(0,1,1)[12]",,,,,0.0,1.0,4.0,0.0,1.0,1.0,1355.708
+Mischief,2026-02-01,AutoETS,"ETS(A,N,A)",0.415,,0.001,,,,,,,,1745.538
+Mischief,2026-02-01,AutoARIMA,"ARIMA(0,1,2)(0,1,1)[12]",,,,,0.0,1.0,2.0,0.0,1.0,1.0,1337.081
+Robbery,2026-02-01,AutoETS,"ETS(A,N,A)",0.442,,0.001,,,,,,,,1484.185
+Robbery,2026-02-01,AutoARIMA,"ARIMA(0,1,1)(2,0,0)[12]",,,,,0.0,1.0,1.0,2.0,0.0,0.0,1187.457
+Theft from vehicle,2026-02-01,AutoETS,"ETS(A,N,A)",0.263,,0.002,,,,,,,,1855.158
+Theft from vehicle,2026-02-01,AutoARIMA,"ARIMA(0,1,2)(2,0,0)[12]",,,,,0.0,1.0,2.0,2.0,0.0,0.0,1574.601
+Vehicle theft,2026-02-01,AutoETS,"ETS(M,N,N)",0.82,,,,,,,,,,1768.845
+Vehicle theft,2026-02-01,AutoARIMA,"ARIMA(2,1,2)(1,0,0)[12]",,,,,2.0,1.0,2.0,1.0,0.0,0.0,1496.356
+Break and enter,2026-03-01,AutoETS,"ETS(M,Ad,A)",0.69,0.01,0.0,0.828,,,,,,,1776.17
+Break and enter,2026-03-01,AutoARIMA,"ARIMA(0,1,1)(0,1,1)[12]",,,,,0.0,1.0,1.0,0.0,1.0,1.0,1368.361
+Mischief,2026-03-01,AutoETS,"ETS(A,N,A)",0.435,,0.0,,,,,,,,1760.254
+Mischief,2026-03-01,AutoARIMA,"ARIMA(0,1,2)(0,1,1)[12]",,,,,0.0,1.0,2.0,0.0,1.0,1.0,1347.452
+Robbery,2026-03-01,AutoETS,"ETS(A,N,A)",0.432,,0.017,,,,,,,,1497.612
+Robbery,2026-03-01,AutoARIMA,"ARIMA(0,1,1)(2,0,0)[12]",,,,,0.0,1.0,1.0,2.0,0.0,0.0,1195.942
+Theft from vehicle,2026-03-01,AutoETS,"ETS(A,N,A)",0.246,,0.001,,,,,,,,1871.319
+Theft from vehicle,2026-03-01,AutoARIMA,"ARIMA(0,1,2)(2,0,0)[12]",,,,,0.0,1.0,2.0,2.0,0.0,0.0,1586.587
+Vehicle theft,2026-03-01,AutoETS,"ETS(M,N,N)",0.817,,,,,,,,,,1791.889
+Vehicle theft,2026-03-01,AutoARIMA,"ARIMA(2,1,0)(1,0,1)[12]",,,,,2.0,1.0,0.0,1.0,0.0,1.0,1512.64
+Break and enter,2026-04-01,AutoETS,"ETS(M,Ad,A)",0.683,0.007,0.0,0.804,,,,,,,1791.216
+Break and enter,2026-04-01,AutoARIMA,"ARIMA(0,1,4)(0,1,1)[12]",,,,,0.0,1.0,4.0,0.0,1.0,1.0,1377.766
+Mischief,2026-04-01,AutoETS,"ETS(A,N,A)",0.411,,0.003,,,,,,,,1774.448
+Mischief,2026-04-01,AutoARIMA,"ARIMA(0,1,2)(0,1,1)[12]",,,,,0.0,1.0,2.0,0.0,1.0,1.0,1358.081
+Robbery,2026-04-01,AutoETS,"ETS(A,N,A)",0.444,,0.001,,,,,,,,1507.924
+Robbery,2026-04-01,AutoARIMA,"ARIMA(0,1,1)(2,0,0)[12]",,,,,0.0,1.0,1.0,2.0,0.0,0.0,1207.904
+Theft from vehicle,2026-04-01,AutoETS,"ETS(A,N,A)",0.295,,0.002,,,,,,,,1882.173
+Theft from vehicle,2026-04-01,AutoARIMA,"ARIMA(0,1,2)(2,0,0)[12]",,,,,0.0,1.0,2.0,2.0,0.0,0.0,1597.468
+Vehicle theft,2026-04-01,AutoETS,"ETS(M,N,M)",0.601,,0.027,,,,,,,,1802.976
+Vehicle theft,2026-04-01,AutoARIMA,"ARIMA(2,1,0)(1,0,1)[12]",,,,,2.0,1.0,0.0,1.0,0.0,1.0,1523.379

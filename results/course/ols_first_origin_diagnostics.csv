@@ -1,0 +1,6 @@
+unique_id,origin,n_months,r_squared,durbin_watson,breusch_pagan_p,ljung_box_p_lag12,ljung_box_p_lag24,lag1_autocorrelation
+Break and enter,2019-12,60,0.788,1.07,0.037,0.0,0.0,0.46
+Mischief,2019-12,60,0.866,1.27,0.198,0.0019,0.0204,0.36
+Robbery,2019-12,60,0.473,1.16,0.916,0.0104,0.0059,0.42
+Theft from vehicle,2019-12,60,0.772,1.63,0.305,0.0232,0.0003,0.18
+Vehicle theft,2019-12,60,0.206,1.08,0.53,0.0019,0.0005,0.45

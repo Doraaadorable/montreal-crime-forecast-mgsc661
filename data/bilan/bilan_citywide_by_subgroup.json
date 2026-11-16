@@ -1,0 +1,10 @@
+{
+  "source": "https://donnees.montreal.ca/dataset/bilan-mensuel-criminalite",
+  "resource_id": "9ae09144-f418-4d08-ba54-c5d65e5bd6bb",
+  "downloaded_utc": "2026-11-16T20:48:55Z",
+  "source_rows": 25167,
+  "first_month": "2023-01",
+  "last_month": "2026-10",
+  "total_count": 464190,
+  "note": "Citywide monthly totals by subgroup (summed over PDQ). License CC BY 4.0."
+}
