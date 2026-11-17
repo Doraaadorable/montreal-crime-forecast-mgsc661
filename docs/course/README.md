@@ -60,8 +60,8 @@ which allow for the autocorrelated residuals), and the error grows with the hori
 would if extrapolating that trend went wrong once the series turned.
 
 **Its residuals are autocorrelated.** At the first origin, Durbin–Watson is 1.07 to 1.63 and
-Ljung–Box detects residual autocorrelation in all five categories (lag 12, p < 0.025), as in the PoC
-(DW 1.02). The usual OLS intervals assume independent errors around a correct trend; here
+Ljung–Box detects residual autocorrelation in all five categories (lag 12, p < 0.025), as in
+the PoC (DW 1.02). The usual OLS intervals assume independent errors around a correct trend; here
 neither holds, and the 80% interval covered 56% of outcomes. ETS and ARIMA model the
 dependence directly, which is the reason to move to them. For the same reason, the
 coefficient tables report Newey–West (HAC) standard errors next to the usual ones (lag 3,
@@ -85,10 +85,10 @@ fixed in advance by the standard rule; lag 12 as a check).
 
 **Residual checks did not flag the coming surge.** At the first origin (data to December
 2019), vehicle theft was flat: 4,170 to 4,732 incidents a year from 2015 to 2019, no
-significant trend or month effect in the OLS fit (trend p = 0.26, HAC). The ARIMA(1,0,0) residuals
-showed no evidence of autocorrelation (Ljung–Box p = 0.78 at lag 12, all 60 residuals,
-1 degree of freedom removed): no residual autocorrelation was detected at the tested lags.
-That does not mean the model could forecast the sustained rise that followed. The forecast errors did flag it: the CUSUM raised
+significant trend or month effect in the OLS fit (trend p = 0.26, HAC). For the ARIMA(1,0,0)
+fit, no residual autocorrelation was detected at the tested lags (Ljung–Box p = 0.78 at
+lag 12, all 60 residuals, 1 degree of freedom removed). That does not mean the model could
+forecast the sustained rise that followed. The forecast errors did flag it: the CUSUM raised
 alarms in April and July 2021. (The ETS check, p = 0.23, removes no degrees of freedom and is
 only indicative; see `src/course_structure.py`.)
 
