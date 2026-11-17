@@ -8,11 +8,11 @@ fill in. Do not fill a blank with anything that did not happen.
 
 | Name | Student ID |
 |---|---|
-| Weiwei Xu | **check**: 261090107 on the pitch slides, 261098107 in the PoC report |
-| Dora Zhuang | 261012351 |
-| Eric Sun | 261320838 |
-| Renkai Zhu | 261333162 |
-| Vincent Wang | 261347738 |
+| Weiwei Xu | (to confirm) |
+| Dora Zhuang | (to confirm) |
+| Eric Sun | (to confirm) |
+| Renkai Zhu | (to confirm) |
+| Vincent Wang | (to confirm) |
 
 ## Where the work came from
 
@@ -20,9 +20,10 @@ fill in. Do not fill a blank with anything that did not happen.
 |---|---|---|---|
 | Pitch slides | 7 Oct 2026 | Group 6 pitch, all five names | |
 | PoC report and notebook | 15 Oct 2026 | Group 6 report, all five names; the notebook's saved output was last run under a user folder named `changsun` | |
-| Extended study (main branch of this repository) | 15–16 Nov 2026 | 19 commits from one GitHub account (Doraaadorable): data pipeline, rolling backtest, intervals, reconciliation, pooled model, planning, monitoring, summary page | |
-| Course additions (branch `course/mgsc661`) | 16 Nov 2026 | Written by an AI coding assistant (Claude Code) at a member's request; commits authored "Claude" | Review and verification: |
-| R cross-check, slides, final report | 17 Nov to 12 Dec 2026 | Not yet done | |
+| Extended study (original repository `montreal-crime-forecast`, commits up to 642152e) | 15–16 Nov 2026 | 19 commits from one GitHub account (Doraaadorable): data pipeline, rolling backtest, intervals, reconciliation, pooled model, planning, monitoring, summary page | |
+| Course copy of the repository (`montreal-crime-forecast-mgsc661`) | 17 Nov 2026 | Created by a member; history of the main study kept | |
+| Course additions | 16–17 Nov 2026 | Written by an AI coding assistant (Claude Code) at a member's request; commits authored "Claude" | Review and verification: |
+| Optional R check, slides, final report | 17 Nov to 12 Dec 2026 | Not yet done | |
 
 ## Remaining work to assign
 
@@ -30,7 +31,7 @@ Each item has a concrete output that shows who did it.
 
 | Task | Output | Assigned to |
 |---|---|---|
-| Run `course/r/check_first_origin.R` in R (fpp2) and compare with the Python structures | `course/r/r_first_origin_structures.csv`, a short note on any difference | |
+| Optional: run `course/r/check_first_origin.R` in R (fpp2), an independent check of the method at the first origin | `course/r/r_first_origin_structures.csv`, a note explaining any difference | |
 | Rerun `python src/course_run_all.py` and `pytest` on your own machine; confirm the numbers | A line in this file with date and result | |
 | Interpret the OLS results: month profile, trend, residual dependence, why it loses | Report section and slide 4 | |
 | Interpret the ETS and ARIMA structures and residual checks | Report section and slide 4 | |

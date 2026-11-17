@@ -1,12 +1,13 @@
-"""Cross-check the incident file against the SPVM's official monthly statistics.
+"""Consistency check between the incident file and the SPVM's official monthly statistics.
 
 The PoC used the Bilan mensuel sur la criminalite (official monthly statistics, January 2023
 onward). The final analysis uses Actes criminels (incident records, January 2015 onward),
 which the portal describes as not being the SPVM's official statistics. This script compares
-the four categories that exist in both files over the months they share.
+the four categories that exist in both files over the months they share. Both come from the
+same police records system, so agreement is a consistency check, not independent validation.
 
-Counting rules differ: both keep only the most serious offence per event, but the Bilan
-counts crimes against the person (robbery is one) by victim.
+Both keep only the most serious offence per event. The Bilan counts crimes against the person
+(robbery is one) by victim; whether that explains the robbery gap is not established.
 
 Usage:
     python src/course_bilan_check.py              # use the committed Bilan aggregate
@@ -96,7 +97,7 @@ def main() -> None:
         download()
     out = compare()
     COURSE_RESULTS.mkdir(parents=True, exist_ok=True)
-    out.to_csv(COURSE_RESULTS / "bilan_crosscheck.csv", index=False)
+    out.to_csv(COURSE_RESULTS / "bilan_consistency.csv", index=False)
     print(out.to_string(index=False))
 
 

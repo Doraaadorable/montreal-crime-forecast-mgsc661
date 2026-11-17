@@ -1,8 +1,10 @@
 # MGSC 661 course version
 
-MGSC 661 Multivariate Statistics, Group 6. This folder adapts the project for the course:
-it adds the PoC's regression to the rolling backtest, explains which ETS and ARIMA models
-were actually fitted, and checks the data against the SPVM's official monthly statistics.
+MGSC 661 Multivariate Statistics, Group 6. This repository is the course copy of
+`montreal-crime-forecast`, with its commit history kept so the origin of each part is
+visible. This folder adapts the project for the course: it adds the PoC's regression to the
+rolling backtest, explains which ETS and ARIMA models were actually fitted, and compares the
+data with the SPVM's official monthly statistics.
 
 - [How the project changed since the PoC](EVOLUTION.md)
 - [Presentation plan (25 November)](PRESENTATION_PLAN.md)
@@ -29,9 +31,11 @@ therefore read the committed snapshot `data/snapshots/2026-11-15.csv.gz`, which 
 the backtest data exactly. The 16 November update changed three complete months by 3 incidents
 in total (October +2, April −1), so the analysis is not rerun on later downloads.
 
-This file is not the SPVM's official statistics; the official monthly figures are the
-**Bilan mensuel sur la criminalité**, which the PoC used. For January 2023 to October 2026,
-the two agree closely on the categories they share (`results/course/bilan_crosscheck.csv`):
+This file is not the SPVM's official statistics; the portal points to the
+**Bilan mensuel sur la criminalité**, which the PoC used, for the official monthly picture.
+The two are not interchangeable. As a consistency check, not an independent validation (both
+come from the same police records system), we compared the categories they share for January
+2023 to October 2026 (`results/course/bilan_consistency.csv`):
 
 | Category | Incident file ÷ official | Monthly correlation |
 |---|---|---|
@@ -40,18 +44,23 @@ the two agree closely on the categories they share (`results/course/bilan_crossc
 | Mischief | 0.99 | 0.997 |
 | Robbery | 0.64 | 0.765 |
 
-Robbery differs because the official figures count crimes against the person by victim.
+Three categories line up closely, though not exactly. Robbery does not. One documented
+difference is the counting unit: the official file counts crimes against the person, robbery
+included, by victim, while the incident file has one row per event. We have not confirmed
+that this explains a gap of this size; category definitions and geographic coverage could
+also differ. The final analysis does not depend on robbery matching.
 
 ## Course results
 
 **The PoC regression does not hold up in a longer, rolling test.** OLS with a linear trend
 and month dummies, refitted at the same 77 origins, has a MASE of 1.46, against 1.25 for
-"same month last year" and 1.01 for ETS. Its error is 17% above the benchmark overall
-(95% interval 0.98 to 1.41) and 27% above at six months ahead (1.05 to 1.52). The fixed trend
-is the problem: at the first origin, four of five categories had a significant downward
-trend from 2015 to 2019, and extrapolating it went wrong once the series turned.
+"same month last year" and 1.01 for ETS. Overall it is not clearly different from the benchmark (error ratio
+1.17, 95% interval 0.98 to 1.41); six months ahead it is clearly worse (1.27, 1.05 to 1.52).
+A likely reason is the fixed linear trend: at the first origin, four of five categories had
+a significant downward trend from 2015 to 2019, and the error grows with the horizon, as it
+would if extrapolating that trend went wrong once the series turned.
 
-**Its residuals explain why.** At the first origin, Durbin–Watson is 1.07 to 1.63 and
+**Its residuals are dependent.** At the first origin, Durbin–Watson is 1.07 to 1.63 and
 Ljung–Box rejects independence for all five categories (lag 12, p < 0.025), as in the PoC
 (DW 1.02). The OLS intervals assume independent errors, so they are too narrow: the 80%
 interval covered 56% of outcomes. This is the reason to move to ETS and ARIMA, which model
@@ -66,18 +75,30 @@ the dependence.
 - ARIMA was seasonal in 87% of fits. Break and enter and mischief nearly always used a
   seasonal difference (D = 1).
 - Vehicle theft is the exception. ETS was ETS(M,N,N) or ETS(A,N,N) at 76 of 77 origins: no
-  trend, no seasonality, α between 0.39 and 0.97. ARIMA was most often a random walk,
-  ARIMA(0,1,0). Both models forecast "about the current level".
+  trend, no seasonality, α between 0.39 and 0.97, so its forecasts stay flat at the latest
+  smoothed level. ARIMA was most often ARIMA(0,1,0) without drift (29 origins), a random walk
+  whose forecasts stay at the last value, or ARIMA(1,0,0) with a mean (21 origins), whose
+  forecasts move back toward the training average.
 - Structures change from origin to origin (3 to 13 distinct structures per category), so
   "the model" is a selection rule refitted each month, not one fixed equation.
 
-**Diagnostics passed before the vehicle theft surge.** At the first origin (data to December
-2019), vehicle theft had no trend and no month effect in the OLS fit (trend p = 0.20, no month
-coefficient significant). The ETS and ARIMA residuals showed no autocorrelation (Ljung–Box
-p = 0.23 and 0.58 at lag 12). The models were a fair description of the past; the 2021–2023
-surge had no precedent in it. In-sample diagnostics cannot warn of that kind of change; the
-CUSUM on forecast errors raised alarms in April and July 2021. Robbery is the opposite case:
-both models failed Ljung–Box (p = 0.003 and 0.002) yet forecast it reasonably well.
+**Residual checks did not flag the coming surge.** At the first origin (data to December
+2019), vehicle theft was flat: 4,170 to 4,732 incidents a year from 2015 to 2019, no
+significant trend or month effect in the OLS fit (trend p = 0.20). The ARIMA(1,0,0) residuals
+showed no evidence of autocorrelation (Ljung–Box p = 0.58 at lag 12, 1 degree of freedom
+removed). This says the model fitted the past adequately; it does not say the model could
+forecast the sustained rise that followed. The forecast errors did flag it: the CUSUM raised
+alarms in April and July 2021. (The ETS check, p = 0.23, removes no degrees of freedom and is
+only indicative; see `src/course_structure.py`.)
+
+The diagnostics reported here are for the statsforecast models that produced the backtest
+forecasts. The R script repeats the first origin with the course's `ets()`, `auto.arima()`
+and `checkresiduals()` as an independent check of the method; if R selects a different
+structure, the difference is reported and explained, not substituted.
+
+**What goes where.** The presentation uses representative structures and the vehicle theft
+residual checks. The full structure frequency, the per-origin parameter table and the data
+consistency table are appendix material.
 
 The other results (accuracy by horizon, interval coverage by year, planning, monitoring)
 are in the [main findings](../FINDINGS.md).
@@ -89,7 +110,7 @@ data/snapshots/2026-11-15.csv.gz ─┬─> backtest.py ──> results/backtest
 (frozen monthly counts)           │      (Naive, same month last year, ETS, ARIMA, Theta)
                                   ├─> course_ols.py ──> OLS in the same 77-origin backtest
                                   ├─> course_structure.py ──> fitted structures, residual checks
-data/bilan/ (official statistics) ┴─> course_bilan_check.py ──> cross-check
+data/bilan/ (official statistics) ┴─> course_bilan_check.py ──> consistency check
 course/r/check_first_origin.R ──> the same first-origin fits in R (fpp2), as in Lab 10
 ```
 
@@ -98,7 +119,7 @@ course/r/check_first_origin.R ──> the same first-origin fits in R (fpp2), as
 | `src/course_data.py` | Citywide series from the frozen snapshot; the 77 origins |
 | `src/course_ols.py` | `results/course/ols_*`, `figures/course/ols_residual_acf.png` |
 | `src/course_structure.py` | `results/course/model_structures.csv`, `structure_frequency.csv`, `structure_selected_origins.csv`, `residual_checks_first_origin.csv`, `figures/course/differencing_acf.png`, `figures/course/residuals_vehicle_theft.png` |
-| `src/course_bilan_check.py` | `results/course/bilan_crosscheck.csv` |
+| `src/course_bilan_check.py` | `results/course/bilan_consistency.csv` |
 | `course/r/check_first_origin.R` | `course/r/r_first_origin_structures.csv` (not yet run) |
 
 Choices fixed before looking at results: the OLS specification (identical to the PoC), the
@@ -113,5 +134,5 @@ python src/course_run_all.py      # about 4 minutes, no download needed
 pytest -q
 ```
 
-To reproduce the R cross-check, install `fpp2` and run `Rscript course/r/check_first_origin.R`
+To run the R check, install `fpp2` and run `Rscript course/r/check_first_origin.R`
 from the repository root.

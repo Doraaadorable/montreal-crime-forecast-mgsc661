@@ -17,7 +17,7 @@ SRC = Path(__file__).resolve().parent
 STEPS = [
     "course_ols.py",          # PoC regression in the 77-origin backtest, OLS diagnostics
     "course_structure.py",    # ETS / ARIMA structures at every origin, residual checks
-    "course_bilan_check.py",  # incident file vs official monthly statistics
+    "course_bilan_check.py",  # consistency with official monthly statistics
 ]
 
 if __name__ == "__main__":

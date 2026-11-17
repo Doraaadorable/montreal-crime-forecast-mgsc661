@@ -14,8 +14,10 @@ Residual checks follow the course's checkresiduals(): residual plot, residual AC
 Ljung-Box test. For ETS the residuals are innovation residuals (relative errors when the
 error is multiplicative), as in R. Ljung-Box degrees of freedom are reduced by p+q+P+Q for
 ARIMA and not reduced for ETS: with 60 months, ETS models with seasonal initial states have
-more parameters than lags, so a reduced test is not defined. The R script in course/r/ runs
-the course's own checkresiduals() as a cross-check.
+more parameters than lags, so a reduced test is not defined; treat the ETS p-values as
+indicative. These are the reported diagnostics, since these models produced the forecasts.
+The R script in course/r/ repeats the first origin with the course's checkresiduals() as an
+independent check of the method, not a replacement.
 
 Outputs (results/course/):
     model_structures.csv            one row per series, origin and model

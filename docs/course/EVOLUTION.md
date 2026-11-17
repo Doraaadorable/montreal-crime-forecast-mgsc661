@@ -25,8 +25,7 @@ The instructor confirmed that the final project need not match the PoC.
 
 | PoC | Final | Why |
 |---|---|---|
-| Bilan mensuel, 44 months from 2023 | Actes criminels, 142 months from 2015 | 44 months (about 3.5 seasonal cycles) is too short for many forecast origins or for estimating seasonal models. The Bilan also starts after the vehicle theft surge began, so it cannot show how forecasts fail through it. |
-| All recorded offences, five broad groups | Five categories: break and enter, theft from vehicle, vehicle theft, mischief, robbery | The longer file covers only these. The final results do not describe total crime. |
+| Bilan mensuel: all offences, 44 months from 2023 | Actes criminels: five categories, 142 months from 2015 | A trade-off between coverage and history. To test whether forecasts stay reliable in different conditions, we needed many forecast origins and the years before, during and after the vehicle theft surge. The Bilan covers the 2023 peak and the decline, but not the rise from 2020 or a baseline before it. The longer file covers only break and enter, theft from vehicle, vehicle theft, mischief and robbery, so the final results do not describe total crime. |
 | OLS trend + month | OLS kept as a baseline; ETS and ARIMA added | The PoC's Durbin–Watson of 1.02 showed dependent residuals, which OLS ignores and ETS and ARIMA model. |
 | One six-month holdout | 77 rolling origins, 1 to 6 months ahead, same for every model | Named in the PoC's next steps. One holdout of six spring and summer months cannot separate methods. |
 | No intervals | 80% and 95% intervals, coverage by year | Named in the PoC's next steps; also asked for in peer feedback. |
@@ -46,10 +45,12 @@ mattered more than the type of crime.
 
 ## Main difficulties
 
-- **Series length against relevance.** The official monthly file is the better measure of
-  crime but too short; the longer incident file covers fewer categories and is not the
-  official statistics. The overlap check shows the two agree on vehicle theft, break and enter
-  and mischief (within 2%), but not on robbery, which the official file counts by victim.
+- **Coverage against history.** The official monthly file covers all offences but starts in
+  2023; the incident file goes back to 2015 but covers five categories and is not the
+  official statistics. A consistency check on the shared categories: vehicle theft, break and
+  enter and mischief agree within 2% in total; robbery does not, and the reason is not fully
+  established (the official file counts crimes against the person by victim, but we have not
+  confirmed this explains the gap).
 - **Data that changes daily.** Both files are revised after publication, and the incident
   file keeps no old versions. The analysis is frozen on the 15 November download.
 - **A structural break.** Vehicle theft more than doubled from 2020 to 2023. No method tested

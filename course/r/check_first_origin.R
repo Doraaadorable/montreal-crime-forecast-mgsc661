@@ -1,4 +1,4 @@
-# MGSC 661 cross-check: refit ETS and ARIMA with the course's R workflow (Lab 10, fpp2)
+# MGSC 661 independent check: refit ETS and ARIMA with the course's R workflow (Lab 10, fpp2)
 # at the first backtest origin (data up to December 2019) and compare with Python.
 #
 # Status: written for a group member to run and check. Not yet run: R is not installed
@@ -12,9 +12,11 @@
 # in course/r/plots/. Compare with results/course/structure_selected_origins.csv and
 # results/course/residual_checks_first_origin.csv (origin 2019-12-01).
 #
-# R's ets() and auto.arima() and Python's statsforecast follow the same selection rules,
-# but defaults differ in places, so a different structure is a finding to report, not an
-# error to hide. Note any difference and which one the report uses.
+# This is an independent check of the method. The reported diagnostics stay those of the
+# statsforecast models that produced the backtest forecasts. R's ets() and auto.arima()
+# follow similar selection rules, but search ranges, defaults and estimation differ, so R may
+# choose another structure. If it does, report the difference and the likely setting behind
+# it; do not replace the Python results with the R ones.
 
 library(fpp2)
 
