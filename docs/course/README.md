@@ -57,14 +57,17 @@ and month dummies, refitted at the same 77 origins, has a MASE of 1.46, against 
 "same month last year" and 1.01 for ETS. Overall it is not clearly different from the benchmark (error ratio
 1.17, 95% interval 0.98 to 1.41); six months ahead it is clearly worse (1.27, 1.05 to 1.52).
 A likely reason is the fixed linear trend: at the first origin, four of five categories had
-a significant downward trend from 2015 to 2019, and the error grows with the horizon, as it
+a significant downward trend from 2015 to 2019 (p < 0.002 with Newey–West standard errors,
+which allow for the autocorrelated residuals), and the error grows with the horizon, as it
 would if extrapolating that trend went wrong once the series turned.
 
 **Its residuals are dependent.** At the first origin, Durbin–Watson is 1.07 to 1.63 and
 Ljung–Box rejects independence for all five categories (lag 12, p < 0.025), as in the PoC
-(DW 1.02). The OLS intervals assume independent errors, so they are too narrow: the 80%
-interval covered 56% of outcomes. This is the reason to move to ETS and ARIMA, which model
-the dependence.
+(DW 1.02). The usual OLS intervals assume independent errors around a correct trend; here
+neither holds, and the 80% interval covered 56% of outcomes. ETS and ARIMA model the
+dependence directly, which is the reason to move to them. For the same reason, the
+coefficient tables report Newey–West (HAC) standard errors next to the usual ones (lag 3,
+fixed in advance by the standard rule; lag 12 as a check).
 
 **What ETS and ARIMA chose.** Across 77 origins × 5 categories:
 
@@ -84,9 +87,9 @@ the dependence.
 
 **Residual checks did not flag the coming surge.** At the first origin (data to December
 2019), vehicle theft was flat: 4,170 to 4,732 incidents a year from 2015 to 2019, no
-significant trend or month effect in the OLS fit (trend p = 0.20). The ARIMA(1,0,0) residuals
-showed no evidence of autocorrelation (Ljung–Box p = 0.58 at lag 12, 1 degree of freedom
-removed). This says the model fitted the past adequately; it does not say the model could
+significant trend or month effect in the OLS fit (trend p = 0.26, HAC). The ARIMA(1,0,0) residuals
+showed no evidence of autocorrelation (Ljung–Box p = 0.78 at lag 12, all 60 residuals,
+1 degree of freedom removed). This says the model fitted the past adequately; it does not say the model could
 forecast the sustained rise that followed. The forecast errors did flag it: the CUSUM raised
 alarms in April and July 2021. (The ETS check, p = 0.23, removes no degrees of freedom and is
 only indicative; see `src/course_structure.py`.)
@@ -106,12 +109,18 @@ are in the [main findings](../FINDINGS.md).
 ## Workflow
 
 ```
-data/snapshots/2026-11-15.csv.gz ─┬─> backtest.py ──> results/backtest_forecasts.parquet
-(frozen monthly counts)           │      (Naive, same month last year, ETS, ARIMA, Theta)
-                                  ├─> course_ols.py ──> OLS in the same 77-origin backtest
-                                  ├─> course_structure.py ──> fitted structures, residual checks
-data/bilan/ (official statistics) ┴─> course_bilan_check.py ──> consistency check
-course/r/check_first_origin.R ──> the same first-origin fits in R (fpp2), as in Lab 10
+Original study (already run; outputs committed)
+  data/raw/actes_criminels.csv (15 Nov download, not in the repository)
+    └─> backtest.py ──> results/backtest_forecasts.parquet
+                         (Naive, same month last year, ETS, ARIMA, Theta at 77 origins)
+
+Course additions (python src/course_run_all.py)
+  data/snapshots/2026-11-15.csv.gz (monthly counts from the same download, committed)
+    ├─> course_ols.py ─────────┐   OLS at the same 77 origins; compared with the
+    │                          ├── committed backtest results above
+    ├─> course_structure.py ───┘   refits ETS and ARIMA; checks they match the backtest
+    └─> course_bilan_check.py <── data/bilan/ (official monthly statistics)
+  course/r/check_first_origin.R    first-origin fits in R (fpp2), independent check
 ```
 
 | Script | Output |

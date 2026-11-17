@@ -7,7 +7,7 @@ import pytest
 
 from course_data import citywide_series, origins
 from course_ols import design, forecast
-from course_structure import ets_row
+from course_structure import ets_row, usable_residuals
 
 ROOT = Path(__file__).resolve().parents[1]
 
@@ -58,3 +58,12 @@ def test_snapshot_rebuilds_the_backtest_data():
     merged = bt.merge(series, on=["unique_id", "ds"], suffixes=("_bt", ""))
     assert len(merged) == len(bt)
     assert (merged["y_bt"] == merged["y"]).all()
+
+
+def test_only_differencing_start_up_residuals_are_dropped():
+    r = np.arange(60, dtype=float)
+    # arma = (p, q, P, Q, m, d, D)
+    assert len(usable_residuals("AutoARIMA", {"residuals": r, "arma": (1, 0, 0, 0, 12, 0, 0)})) == 60
+    assert len(usable_residuals("AutoARIMA", {"residuals": r, "arma": (0, 1, 0, 1, 12, 1, 1)})) == 47
+    assert len(usable_residuals("AutoARIMA", {"residuals": r, "arma": (0, 1, 1, 0, 12, 1, 0)})) == 59
+    assert len(usable_residuals("AutoETS", {"residuals": r})) == 60

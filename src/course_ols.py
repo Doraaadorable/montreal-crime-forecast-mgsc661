@@ -120,11 +120,23 @@ def first_origin_diagnostics(series: pd.DataFrame) -> tuple[pd.DataFrame, pd.Dat
     coefs, diags, resids = [], [], {}
     for uid in wide.columns:
         m = fit(wide[uid])
-        ci = m.conf_int()
+        # Residuals are autocorrelated, so the usual OLS standard errors are too small.
+        # Newey-West (HAC) standard errors, lag fixed in advance by the rule
+        # floor(4 (n/100)^(2/9)) = 3 for n = 60; lag 12 (one year) as a sensitivity check.
+        lag = int(np.floor(4 * (m.nobs / 100) ** (2 / 9)))
+        hac = m.get_robustcov_results(cov_type="HAC", maxlags=lag)
+        hac12 = m.get_robustcov_results(cov_type="HAC", maxlags=12)
+        ci = hac.conf_int()
         coefs.append(pd.DataFrame({"unique_id": uid, "term": m.params.index,
-                                   "estimate": m.params.round(2), "std_error": m.bse.round(2),
-                                   "p_value": m.pvalues.round(4),
-                                   "ci_low": ci[0].round(2), "ci_high": ci[1].round(2)}))
+                                   "estimate": m.params.round(2),
+                                   "ols_std_error": m.bse.round(2),
+                                   "ols_p_value": m.pvalues.round(4),
+                                   "hac_lag": lag,
+                                   "hac_std_error": np.round(hac.bse, 2),
+                                   "hac_p_value": np.round(hac.pvalues, 4),
+                                   "hac_ci_low": np.round(ci[:, 0], 2),
+                                   "hac_ci_high": np.round(ci[:, 1], 2),
+                                   "hac12_p_value": np.round(hac12.pvalues, 4)}))
         lb = acorr_ljungbox(m.resid, lags=[12, 24])
         diags.append({"unique_id": uid, "origin": f"{cutoff:%Y-%m}", "n_months": int(m.nobs),
                       "r_squared": round(m.rsquared, 3),
@@ -193,6 +205,9 @@ def main() -> None:
     print("\n", diags.to_string(index=False))
     print("\nTrend coefficients at the first origin:\n",
           coefs[coefs["term"] == "trend"].to_string(index=False))
+    months = coefs[coefs["term"].str.startswith("m")]
+    print("\nMonth effects with HAC p < 0.05, by category:\n",
+          months[months["hac_p_value"] < 0.05].groupby("unique_id")["term"].apply(list))
 
 
 if __name__ == "__main__":

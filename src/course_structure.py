@@ -120,19 +120,33 @@ def frequency(structures: pd.DataFrame) -> pd.DataFrame:
     return pd.DataFrame(rows).round(2)
 
 
+def usable_residuals(name: str, model: dict) -> np.ndarray:
+    """Residuals used in the checks.
+
+    For ARIMA, statsforecast returns near-zero placeholders for the first d + m*D months,
+    the observations used up by differencing (checked: their absolute values are below 3
+    against a typical residual of 15 to 47 at the first origin). Those are dropped, and only
+    those: a model without differencing keeps every residual. ETS residuals are all kept.
+    """
+    r = np.asarray(model["residuals"], dtype=float)
+    if name == "AutoARIMA":
+        p, q, P, Q, m, d, D = model["arma"]
+        r = r[d + m * D:]
+    return r
+
+
 def residual_checks(first: dict) -> pd.DataFrame:
     rows = []
     for (uid, name), model in first.items():
-        r = np.asarray(model["residuals"], dtype=float)
+        r = usable_residuals(name, model)
         if name == "AutoARIMA":
             p, q, P, Q, *_ = model["arma"]
             df, structure = p + q + P + Q, arima_string(model).strip()
-            r = r[SEASON + 1:]  # drop start-up residuals from differencing
         else:
             df, structure = 0, model["method"]
         lb = acorr_ljungbox(r, lags=[12, 24], model_df=df)
         rows.append({"unique_id": uid, "model": name, "structure": structure,
-                     "ljung_box_df_reduction": df,
+                     "n_residuals": len(r), "ljung_box_df_reduction": df,
                      "ljung_box_p_lag12": round(lb["lb_pvalue"].iloc[0], 3),
                      "ljung_box_p_lag24": round(lb["lb_pvalue"].iloc[1], 3),
                      "residual_lag1_acf": round(acf(r, nlags=1)[1], 2),
@@ -177,14 +191,14 @@ def fig_residuals(series: pd.DataFrame, first: dict, cutoff: pd.Timestamp) -> No
     fig, axes = plt.subplots(2, 2, figsize=(12, 5.2))
     for row, name in enumerate(["AutoETS", "AutoARIMA"]):
         model = first[(FEATURED, name)]
-        r = np.asarray(model["residuals"], dtype=float)
+        r = usable_residuals(name, model)
         label = model["method"] if name == "AutoETS" else arima_string(model).strip()
         color = figures.MODEL_COLORS[name]
-        axes[row, 0].plot(ds, r, color=color, lw=1.4)
+        axes[row, 0].plot(ds[-len(r):], r, color=color, lw=1.4)
         axes[row, 0].axhline(0, color=figures.MUTED, lw=0.8)
         unit = " (relative error)" if name == "AutoETS" and model["method"][4] == "M" else ""
         axes[row, 0].set_title(f"{label}: residuals{unit}", fontsize=10)
-        rr = r[SEASON + 1:] if name == "AutoARIMA" else r
+        rr = r
         axes[row, 1].bar(np.arange(1, 25), acf(rr, nlags=24)[1:], color=color, width=0.7)
         bound = 1.96 / np.sqrt(len(rr))
         axes[row, 1].axhspan(-bound, bound, color=figures.GRID, alpha=0.7, lw=0, zorder=0)
