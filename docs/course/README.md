@@ -5,7 +5,7 @@ it adds the PoC's regression to the rolling backtest, explains which ETS and ARI
 were actually fitted, and compares the data with the SPVM's official monthly statistics.
 
 - [How the project changed since the PoC](EVOLUTION.md)
-- [Presentation plan (25 November)](PRESENTATION_PLAN.md)
+- [Presentation plan (25 November)](PRESENTATION_PLAN.md) and [slide draft](SLIDES_DRAFT.md)
 - [Contributions: to complete](CONTRIBUTIONS.md)
 
 ## Question
@@ -127,6 +127,7 @@ Course additions (python src/course_run_all.py)
 | `src/course_ols.py` | `results/course/ols_*`, `figures/course/ols_residual_acf.png` |
 | `src/course_structure.py` | `results/course/model_structures.csv`, `structure_frequency.csv`, `structure_selected_origins.csv`, `residual_checks_first_origin.csv`, `figures/course/differencing_acf.png`, `figures/course/residuals_vehicle_theft.png` |
 | `src/course_bilan_check.py` | `results/course/bilan_consistency.csv` |
+| `src/course_figures.py` | `figures/course/mase_by_horizon_with_ols.png`, `figures/course/rolling_origins.png` |
 | `course/r/check_first_origin.R` | `course/r/r_first_origin_structures.csv` (not yet run) |
 
 Choices fixed before looking at results: the OLS specification (identical to the PoC), the
