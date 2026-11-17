@@ -29,7 +29,7 @@ forecasts and when to review them. (186 words)
 **On slide:** When can monthly crime forecasts be trusted for planning? · Users: public safety
 planners preparing monthly workload and capacity · PoC card: official SPVM monthly
 statistics, Jan 2023 – Aug 2026 (44 months); OLS with a linear trend and 11 month dummies;
-benchmark "same month last year"; one six-month holdout; hypothesis: largest gains where
+benchmark "same month last year"; one six-month holdout, plus a short one-month-ahead check; hypothesis: largest gains where
 seasonality is strong and stable.
 
 **Notes:** Planners who prepare monthly workload need to know how many incidents to expect
@@ -41,15 +41,17 @@ held up.
 
 ### 2. Two PoC limits changed the plan (1:00)
 
-**On slide:** PoC limits: 44 months (one holdout, too short for seasonal models);
+**On slide:** PoC limits: 44 months (limited history for fitting seasonal models and testing across
+different periods);
 Durbin–Watson 1.02 (autocorrelated residuals) · Change of data, a trade-off: official
 statistics (all offences, from 2023) vs incident records (5 categories, from 2015), long
 enough to test the years before, during and after the vehicle theft surge · Tried and
 dropped: recalibrated intervals (conformal); training on the last 2–3 years (errors 25–45%
 higher elsewhere); pooled machine-learning model; district clustering.
 
-**Notes:** The PoC raised two problems. First, 44 months allowed only one test and was too
-short to estimate seasonal models reliably. Second, the regression's residuals were
+**Notes:** The PoC raised two problems. First, our PoC relied on one six-month holdout. With
+only 44 months, we had limited history for fitting seasonal models and for testing across
+different periods. Second, the regression's residuals were
 autocorrelated, so its errors were not independent. We therefore switched to the city's
 incident records, which go back to 2015. This was a trade-off: we gave up coverage of all
 offences and kept five categories, but gained enough history to test many forecast dates and
@@ -119,23 +121,23 @@ value of these models is mainly in the short run.
 
 **On slide:** vehicle thefts per month, Mar 2020 – Jul 2026, with the ETS forecast made 3
 months earlier, its 80% interval (shaded) and the upward CUSUM alarms (Apr 2021, Jul 2021,
-May 2022; from one-month-ahead errors) · 40% of 2021 outcomes inside the 80% interval (1–6
+May 2022; legend: "CUSUM alarm, based on 1-month-ahead errors") · 40% of 2021 outcomes inside the 80% interval (1–6
 months ahead) · MASE 2.63 in 2021 (1–6 months ahead); same month last year 3.26 · first
 upward alarm April 2021, two years before the August 2023 peak · caption: 2015–2019 flat at
 4,200–4,700 a year; no residual autocorrelation detected (ARIMA, Ljung–Box p = 0.78).
 
-**Notes:** Vehicle theft was flat from 2015 to 2019, then more than doubled by 2023, peaking
-at 1,205 in August 2023, and has since fallen 43%. Before the surge, no residual
-autocorrelation was detected. That did not mean the models could forecast the rise. The blue
-line is the forecast made three months earlier, and the shaded band its 80% interval. Across
-all 2021 forecasts, one to six months ahead, the interval contained only 40% of outcomes, and
-the MASE was 2.63: the average error was 2.6 times the in-sample error of the
-same-month-last-year forecast. The benchmark itself did even worse, at 3.26. Training only on
-recent years did not fix it. What did work was watching the forecast errors. A standard
-monitor, CUSUM, on the one-month-ahead errors raised its first upward alarm in April 2021 and
-another in July 2021, when thefts had reached 652 a month, against 392 a month on average in
-2020. The amber lines mark these upward alarms; the monitor also flagged a downward miss in
-February 2021.
+**Notes:** Vehicle theft was flat from 2015 to 2019, then more than doubled by 2023 before
+falling back. Before the surge, the residual checks detected no autocorrelation, but that did
+not mean the models could forecast the rise. The blue line is the forecast made three months
+earlier, with its 80% interval shaded. During the surge, forecasts and intervals both missed:
+across 2021, the MASE was 2.63 and only 40% of outcomes fell inside the 80% interval. What did
+help was watching the one-month-ahead errors: a CUSUM monitor raised its first upward alarm in
+April 2021, and another in July, when thefts had reached 652 a month.
+
+*If asked:* MASE 2.63 means the average error was 2.6 times the in-sample error of the
+same-month-last-year forecast, which itself scored 3.26 in 2021. The 40% and 2.63 pool all
+2021 forecasts, 1 to 6 months ahead. The monitor also flagged a downward miss in February
+2021. Training only on recent years did not help.
 
 ### 7. Plans fall short more often than intended (1:00)
 
