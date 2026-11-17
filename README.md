@@ -13,7 +13,7 @@ This is the course version of the project. It builds on Dora Zhuang's study
 |---|---|
 | [Course analysis](docs/course/README.md) | Question, data, methods, results and workflow |
 | [From the PoC to the final project](docs/course/EVOLUTION.md) | What changed since the 15 October PoC, and why |
-| [Presentation plan](docs/course/PRESENTATION_PLAN.md) and [slide draft](docs/course/SLIDES_DRAFT.md) | 25 November presentation: structure, slide text, speaker notes |
+| [Slides (PPTX)](docs/course/MGSC661_Group6_Final_Presentation.pptx), [presentation plan](docs/course/PRESENTATION_PLAN.md) and [slide draft](docs/course/SLIDES_DRAFT.md) | 25 November presentation: slides with speaker notes, structure, text copy |
 | [Contributions](docs/course/CONTRIBUTIONS.md) | Draft, to be completed by the group |
 | [Original study findings](docs/FINDINGS.md) | Full results of the underlying study |
 | [Interactive summary](https://doraaadorable.github.io/montreal-crime-forecast/) | Demo page of the original study |

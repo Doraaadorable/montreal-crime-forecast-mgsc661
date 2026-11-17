@@ -1,5 +1,9 @@
 # Slide draft, 25 November
 
+The slides are in [MGSC661_Group6_Final_Presentation.pptx](MGSC661_Group6_Final_Presentation.pptx),
+with the speaker notes in each slide's notes. From now on the PPTX is the version to edit;
+this page is a text copy for reading and review, and may fall behind it.
+
 Draft text for the title, abstract and slides, with speaker notes. Timings follow the
 [presentation plan](PRESENTATION_PLAN.md); together about 8:30. Every number comes from
 `results/` or `results/course/`.
