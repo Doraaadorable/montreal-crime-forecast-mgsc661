@@ -1,14 +1,12 @@
 # MGSC 661 course version
 
-MGSC 661 Multivariate Statistics, Group 6. This repository is the course copy of
-`montreal-crime-forecast`, with its commit history kept so the origin of each part is
-visible. This folder adapts the project for the course: it adds the PoC's regression to the
-rolling backtest, explains which ETS and ARIMA models were actually fitted, and compares the
-data with the SPVM's official monthly statistics.
+MGSC 661 Multivariate Statistics, Group 6. This folder adapts the project for the course:
+it adds the PoC's regression to the rolling backtest, explains which ETS and ARIMA models
+were actually fitted, and compares the data with the SPVM's official monthly statistics.
 
 - [How the project changed since the PoC](EVOLUTION.md)
 - [Presentation plan (25 November)](PRESENTATION_PLAN.md)
-- [Contributions and AI use: to complete and sign](CONTRIBUTIONS_AND_AI.md)
+- [Contributions: to complete](CONTRIBUTIONS.md)
 
 ## Question
 

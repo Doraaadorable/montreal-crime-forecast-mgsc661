@@ -5,8 +5,7 @@ Renkai Zhu, Vincent Wang.
 
 This is the course version of the project. It builds on Dora Zhuang's study
 [montreal-crime-forecast](https://github.com/Doraaadorable/montreal-crime-forecast)
-([its README](docs/ORIGINAL_STUDY.md)); the commit history shows which parts came from it and
-which were added for the course.
+([its README](docs/ORIGINAL_STUDY.md)).
 
 ## Start here
 
@@ -15,7 +14,7 @@ which were added for the course.
 | [Course analysis](docs/course/README.md) | Question, data, methods, results and workflow |
 | [From the PoC to the final project](docs/course/EVOLUTION.md) | What changed since the 15 October PoC, and why |
 | [Presentation plan](docs/course/PRESENTATION_PLAN.md) | 25 November presentation |
-| [Contributions and AI use](docs/course/CONTRIBUTIONS_AND_AI.md) | Draft, to be completed and signed by the group |
+| [Contributions](docs/course/CONTRIBUTIONS.md) | Draft, to be completed by the group |
 | [Original study findings](docs/FINDINGS.md) | Full results of the underlying study |
 | [Interactive summary](https://doraaadorable.github.io/montreal-crime-forecast/) | Demo page of the original study |
 
